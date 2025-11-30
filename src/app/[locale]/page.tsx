@@ -3,6 +3,7 @@ import { getLocalizedData } from "../lib/localization";
 import { generatePageMetadata, getValidLocale } from '@/seo';
 import { HeroSectionNew } from '../components/sections/HeroSectionNew';
 import { SpecialtiesSection } from '../components/sections/SpecialtiesSectionNew';
+import { FeaturedDishesSection } from '../components/sections/FeaturedDishesSection';
 import { AboutSectionNew } from '../components/sections/AboutSectionNew';
 import { LocationSectionNew } from '../components/sections/LocationSectionNew';
 
@@ -41,6 +42,9 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
 
             {/* Sección de Especialidades */}
             <SpecialtiesSection />
+
+            {/* Carousel Vertical de Platos Estrella */}
+            <FeaturedDishesSection />
 
             {/* Sección de Ubicación */}
             <LocationSectionNew />

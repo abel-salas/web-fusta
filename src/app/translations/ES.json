@@ -1,450 +1,239 @@
 {
-    "contact_section": {
-        "title": "Reserva Tu Experiencia",
-        "subtitle": "¿Listo para vivir una experiencia gastronómica única en uno de los mejores restaurantes de Calella? Reserva tu mesa y déjanos sorprenderte.",
-        "cta": "Reservar Mesa"
+  "nav": {
+    "home": "Inicio",
+    "menu": "Carta",
+    "contacto": "Contacto",
+    "history": "Historia"
+  },
+  "menu": {
+    "title": "Nuestra Carta",
+    "subtitle": "Descubre nuestra selección de platos",
+    "description": "Disfruta de la auténtica cocina mediterránea con nuestros platos elaborados con productos frescos de primera calidad. Cada plato es una celebración de los sabores tradicionales de la costa catalana.",
+    "allergens": {
+      "label": "Alérgenos",
+      "legend": "Leyenda de alérgenos",
+      "types": {
+        "gluten": "Gluten",
+        "lactose": "Lácteos",
+        "fish": "Pescado",
+        "shellfish": "Marisco",
+        "eggs": "Huevo",
+        "nuts": "Frutos secos",
+        "celery": "Apio",
+        "mustard": "Mostaza",
+        "sesame": "Sésamo",
+        "sulfites": "Sulfitos",
+        "molluscs": "Moluscos"
+      }
     },
-    "contact_info": {
-        "phone": "937 69 25 39",
-        "mobile": "695 349 307",
-        "address": "Paseo Manuel Puigvert s/n, Calella, Barcelona",
-        "location": "Platja Gran de Calella, frente a la Estación de Renfe",
-        "parking": "Dos aparcamientos gratuitos",
-        "facebook": "Facebook",
-        "instagram": "Instagram"
-    },
-    "nav": {
-        "home": "Inicio",
-        "menu": "Carta",
-        "especialidades": "Especialidades",
-        "terraza": "Terraza",
-        "paellas": "Paellas",
-        "arroces": "Arroces",
-        "reservas": "Reservas",
-        "celebrations": "Celebraciones",
-        "contacto": "Contacto",
-        "history": "Historia"
-    },
-    "home": {
-        "title": "Banys La Gavina",
-        "subtitle": "Desde 1958 en primera línea de mar",
-        "description": "Situados en la Playa de Calella, somos especialistas en arroces, mariscos, pescado fresco y carnes selectas. Un marco incomparable frente al mar Mediterráneo.",
-        "metaTitle": "Restaurante Banys La Gavina - Desde 1958 en Calella | Arroces y Mariscos",
-        "metaDescription": "Restaurante tradicional frente al mar en Calella desde 1958. Especialistas en arroces, mariscos, pescado fresco y carnes selectas. Terraza con vistas al mar y aparcamiento gratuito.",
-        "cta": "Ver Carta",
-        "cta_secondary": "Reservar Mesa"
-    },
-    "menu": {
-        "title": "Nuestra Carta",
-        "subtitle": "Cocina tradicional catalana con los mejores productos del mar y la tierra",
-        "description": "Nuestra carta combina la tradición culinaria mediterránea con los mejores productos frescos de la Costa Brava. Desde 1958 elaboramos paellas valencianas auténticas, fideuá de mariscos, pescados frescos de la lonja de Calella y carnes selectas a la brasa. Cada plato refleja nuestra pasión por la cocina catalana tradicional, utilizando mariscos de Blanes, verduras de temporada y las mejores carnes catalanas, todo ello servido en nuestra privilegiada terraza frente al mar Mediterráneo.",
-        "metaTitle": "Carta - Restaurante Banys La Gavina | Arroces, Mariscos y Especialidades",
-        "metaDescription": "Descubre nuestra carta con los mejores arroces, mariscos frescos y especialidades mediterráneas. Paella marinera, arroz negro, pescados del día.",
-        "categoryNames": {
-            "starters": "Entrantes",
-            "salads": "Para Picar",
-            "rice": "Arroces",
-            "meat": "Carnes",
-            "fish": "Pescados",
-            "desserts": "Postres",
-            "drinks": "Bebidas"
-        },
-        "allergens": {
-            "label": "Alérgenos:",
-            "legend": "Leyenda de Alérgenos",
-            "types": {
-                "gluten": "Gluten",
-                "shellfish": "Mariscos",
-                "fish": "Pescado",
-                "dairy": "Lácteos",
-                "eggs": "Huevos",
-                "nuts": "Frutos secos",
-                "soy": "Soja",
-                "celery": "Apio",
-                "mustard": "Mostaza",
-                "sesame": "Sésamo",
-                "sulfites": "Sulfitos"
-            }
-        },
-        "view_full_menu": "Ver Menú Completo",
-        "recommended": "Recomendado"
-    },
-    "contact": {
-        "title": "Reservas y Contacto",
-        "subtitle": "Restaurante frente al mar en Calella - Mesa con vistas al Mediterráneo",
-        "description": "Reserva tu mesa en el Restaurant Banys La Gavina y disfruta de auténtica cocina mediterránea frente al mar. Desde 1958 en primera línea de playa en Calella, Barcelona.",
-        "metaTitle": "Reservas Restaurante Banys La Gavina Calella | Mesa Frente al Mar | 937 69 25 39",
-        "metaDescription": "Reserva mesa en Restaurant Banys La Gavina Calella: 937 69 25 39. Terraza frente al mar, cocina mediterránea, parking gratuito. Paseo Manuel Puigvert s/n.",
-        "reservations_section": "Reservar Mesa",
-        "reservations_subtitle": "Tu mesa frente al Mediterráneo te está esperando",
-        "reservations_description": "Disfruta de nuestras especialidades mediterráneas en una ubicación única: terraza con vista panorámica al mar, ambiente familiar y más de 65 años de tradición culinaria.",
-        "reservation_benefits": {
-            "title": "¿Por qué reservar con nosotros?",
-            "items": [
-                "🌊 Terraza frente al mar con vistas panorámicas",
-                "🍽️ Cocina mediterránea auténtica desde 1958", 
-                "🅿️ Parking gratuito muy cerca del restaurante",
-                "👨‍👩‍👧‍👦 Ambiente familiar y acogedor",
-                "📍 Frente a la Estación Renfe de Calella"
-            ]
-        },
-        "info_section": "Información de Contacto",
-        "form_section": "Envíanos un Mensaje",
-        "fields": {
-            "address": "Dirección",
-            "phone": "Teléfono",
-            "mobile": "Móvil",
-            "schedule": "Horario",
-            "parking": "Aparcamiento gratuito",
-            "parking_description": "Disponemos de dos parkings públicos gratuitos de Calella muy cercanos al restaurante",
-            "follow_us": "🌐 Síguenos en redes sociales",
-            "name": "Nombre",
-            "email": "Email",
-            "message": "Mensaje",
-            "send_button": "Enviar Mensaje"
-        },
-        "whatsapp": {
-            "title": "Reservas por WhatsApp",
-            "description": "También puedes reservar mesa directamente por WhatsApp",
-            "button": "Reservar por WhatsApp"
-        }
-    },
-    "about": {
-        "features": [
-            {
-                "icon": "eco",
-                "title": "Productos Frescos del Mediterráneo",
-                "description": "Mariscos de Blanes, pescado de lonja de Calella y verduras locales seleccionadas diariamente para garantizar máxima calidad"
-            },
-            {
-                "icon": "restaurant",
-                "title": "Cocina Tradicional Catalana",
-                "description": "Más de 65 años perfeccionando paellas valencianas, fideuá de mariscos y especialidades mediterráneas con técnicas ancestrales"
-            },
-            {
-                "icon": "home", 
-                "title": "Restaurante Familiar desde 1958",
-                "description": "Tres generaciones manteniendo la tradición culinaria catalana con recetas auténticas transmitidas en familia"
-            },
-            {
-                "icon": "waves",
-                "title": "Primera Línea de Mar Calella",
-                "description": "Terraza frente a la Platja Gran con vistas panorámicas al Mediterráneo y ambiente único en la Costa Brava"
-            }
-        ]
-    },
-    "gallery": {
-        "title": "📸 Galería de Fotos",
-        "subtitle": "Descubre nuestro restaurantee y entorno",
-        "description": "Un marco incomparable frente al mar Mediterráneo en Calella. Conoce nuestro ambiente, terraza frente al mar y las mejores vistas.",
-        "metaTitle": "Galería - Restaurante Banys La Gavina | Fotos del Restaurantee y Terraza",
-        "metaDescription": "Galería de fotos del Restaurante Banys La Gavina. Descubre nuestro ambiente, terraza frente al mar y las mejores vistas de Calella."
-    },
-    "celebrations": {
-        "title": "Celebraciones",
-        "subtitle": "Tu evento especial frente al mar",
-        "description": "Celebra tus momentos más especiales en un entorno único frente al Mediterráneo. Organizamos banquetes, bodas, comuniones, cenas de empresa y todo tipo de celebraciones familiares.",
-        "metaTitle": "Celebraciones y Banquetes - Restaurante Banys La Gavina | Eventos frente al mar",
-        "metaDescription": "Celebra tus eventos especiales en Restaurante Banys La Gavina. Banquetes, bodas, comuniones y cenas de empresa frente al mar en Calella. Capacidad hasta 100 personas.",
-        "keywords": "celebraciones restaurante calella, banquetes frente al mar, bodas restaurante barcelona, comuniones costa maresme, cenas empresa calella, eventos vista mar"
-    },
-    "sections": {
-        "about": {
-            "title": "Nuestra Historia",
-            "titleSeo": "Restaurante Banys La Gavina lleva más de 65 años siendo referente gastronómico en Calella.",
-            "subtitle": "Tradición familiar desde 1958 en primera línea de mar",
-            "description": "Situados en la Platja Gran frente a la Estación de Renfe, somos especialistas en paellas valencianas auténticas, mariscos frescos de la Costa Brava, pescado de lonja y carnes a la brasa. Nuestra cocina mediterránea tradicional catalana combina productos locales de primera calidad con técnicas ancestrales, ofreciendo una experiencia gastronómica única con vistas panorámicas al mar Mediterráneo."
-        },
-        "specialties": {
-            "title": "Nuestras Especialidades",
-            "subtitle": "Lo mejor del mar Mediterráneo y carnes selectas",
-            "items": [
-                {
-                    "name": "Arroces",
-                    "description": "Paella marinera, arroz negro, paella especial con langosta y fideuá",
-                    "price": "____"
-                },
-                {
-                    "name": "Mariscos",
-                    "description": "Gambas de Blanes, langostinos, mejillones marinera y al vapor",
-                    "price": "____"
-                },
-                {
-                    "name": "Pescados Frescos",
-                    "description": "Selección diaria de pescado fresco del mediterráneo",
-                    "price": "____"
-                },
-                {
-                    "name": "Carnes Selectas",
-                    "description": "Entrecot, solomillo, chuletas de cordero y especialidades a la brasa",
-                    "price": "____"
-                }
-            ]
-        },
-        "location": {
-            "title": "Ubicación Privilegiada en Calella",
-            "subtitle": "Primera línea de playa del Mediterráneo",
-            "description": "Restaurante Banys La Gavina está situado en la Platja Gran de Calella, en primera línea de mar, con vistas panorámicas al Mediterráneo. A solo 800 m de la estación RENFE Calella y con parking gratuito cercano, ofrecemos un acceso cómodo tanto para visitantes de Barcelona como para locales.",
-            "descript_seo": "Si estás buscando restaurantes en Calella de Mar donde combinar cocina mediterránea con ubicación excepcional, este es tu lugar. Nuestra terraza frente al mar es el escenario perfecto para disfrutar de auténticas paellas valencianas, mariscos frescos de la Costa Brava y pescado de lonja, todo en un entorno único y relajado.",
-            "descript_seo_1": "Somos una referencia entre los restaurantes Calella por nuestra cocina de calidad, servicio cercano y ambiente junto al mar."
-        },
-        "services": {
-            "title": "Nuestros Servicios",
-            "subtitle": "Todo lo que necesitas para una experiencia perfecta",
-            "items": [
-                {
-                    "title": "Restaurantee",
-                    "description": "Servicio diario de restaurantee con cocina mediterránea"
-                },
-                {
-                    "title": "Hamacas y Sombrillas",
-                    "description": "Servicio de hamacas y parasoles en la playa"
-                },
-                {
-                    "title": "Eventos",
-                    "description": "Espacio perfecto para todo tipo de eventos, día y noche"
-                },
-                {
-                    "title": "Aparcamiento Gratuito",
-                    "description": "Dos aparcamientos gratuitos, uno frente al restaurantee"
-                }
-            ]
-        }
-    },
-    "history": {
-        "title": "Nuestra Historia **",
-        "subtitle": "Un emblema de Calella desde 1958",
-        "title_seo": "Restaurante Banys La Gavina lleva más de 65 años siendo referente gastronómico en Calella.",
-        "sections": {
-            "origin": {
-                "title": "Los Inicios (1958)",
-                "content": "Restaurante Banys La Gavina abrió sus puertas en 1958, en pleno auge del desarrollo turístico de Calella. Desde sus inicios, se ubicó estratégicamente en la Platja Gran de Calella, frente a la Estación de Renfe, convirtiéndose en el punto de encuentro perfecto para locales y visitantes."
-            },
-            "calella_context": {
-                "title": "Calella: De Pueblo Pesquero a Destino Turístico",
-                "content": "Durante los años 60 y 70, Calella experimentó una transformación radical. De ser un tradicional pueblo pesquero y textil, se convirtió en uno de los destinos turísticos más importantes de la Costa del Maresme. Este boom turístico, especialmente del turismo centroeuropeo, hizo que Calella fuera conocida como 'Calella dels Alemanys', llegando a triplicar su población durante la temporada alta."
-            },
-            "golden_era": {
-                "title": "La Época Dorada del Turismo",
-                "content": "Banys La Gavina fue testigo y protagonista de esta época dorada. Con su ubicación privilegiada frente al mar y junto a la estación de tren, el restaurantee se convirtió en parada obligatoria para los turistas que llegaban a Calella en busca de sol, playa y la auténtica gastronomía mediterránea."
-            },
-            "tradition": {
-                "title": "Más de 65 Años de Tradición",
-                "content": "A lo largo de más de seis décadas, el restaurantee ha mantenido su esencia familiar y su compromiso con la calidad. Ha sido testigo de la evolución de Calella, desde sus inicios como destino turístico hasta convertirse en una ciudad cosmopolita que recibe visitantes de toda Europa."
-            },
-            "calella_cinema": {
-                "title": "Calella: Ciudad de Cine",
-                "content": "Calella también ha sido escenario de numerosos rodajes cinematográficos y televisivos. Desde 2010, forma parte de Catalunya Film Commission, y cuenta con su propia Calella Film Office. La ciudad ha servido como 'ciudad plató' para producciones que han querido capturar la esencia del Mediterráneo catalán."
-            },
-            "present": {
-                "title": "El Restaurantee Hoy",
-                "content": "Actualmente, Restaurante Banys La Gavina continúa siendo un referente gastronómico en Calella. Mantiene sus especialidades tradicionales en arroces, mariscos y pescado fresco, mientras se adapta a los nuevos tiempos conservando su alma mediterránea y familiar."
-            }
-        },
-        "timeline": [
-            {
-                "year": "1958",
-                "event": "Apertura del Restaurante Banys La Gavina"
-            },
-            {
-                "year": "1960s-70s",
-                "event": "Boom turístico de Calella - 'Calella dels Alemanys'"
-            },
-            {
-                "year": "1970s",
-                "event": "Consolidación como referente gastronómico local"
-            },
-            {
-                "year": "2010",
-                "event": "Calella se integra en Catalunya Film Commission"
-            },
-            {
-                "year": "2024",
-                "event": "Más de 65 años sirviendo la mejor cocina mediterránea"
-            }
-        ],
-        "heritage": {
-            "title": "Patrimonio y Tradición",
-            "items": [
-                {
-                    "title": "Ubicación Histórica",
-                    "description": "Situado en el emblemático Paseo Manuel Puigvert, frente a la Platja Gran, desde 1958"
-                },
-                {
-                    "title": "Recetas Tradicionales",
-                    "description": "Conservamos las recetas originales de nuestros arroces y especialidades del mar"
-                },
-                {
-                    "title": "Testigo de la Historia",
-                    "description": "Hemos sido testigos del desarrollo turístico de Calella y la Costa del Maresme"
-                },
-                {
-                    "title": "Generaciones de Clientes",
-                    "description": "Familias enteras han compartido momentos especiales en nuestras mesas durante décadas"
-                }
-            ]
-        },
-        "cta": {
-            "title": "Ven a Formar Parte de Nuestra Historia",
-            "subtitle": "Más de 65 años de tradición gastronómica te esperan en primera línea de mar",
-            "menu_button": "Ver Nuestra Carta",
-            "contact_button": "Reservar Mesa"
-        }
-    },
-    "common": {
-        "cta": {
-            "reserve_now": "Reservar Ahora",
-            "more_info": "Más Información",
-            "whatsapp_reserve": "Reservar por WhatsApp",
-            "contact": "Contactar"
-        }
-    },
-    "privacy": {
-        "title": "Política de Privacidad",
-        "metaTitle": "Política de Privacidad - Restaurante Banys La Gavina",
-        "metaDescription": "Política de privacidad del Restaurante Banys La Gavina. Sin cookies, cumplimiento RGPD y protección de datos personales.",
-        "sections": {
-            "general": {
-                "title": "Información General",
-                "content": "En cumplimiento de la normativa vigente en materia de protección de datos personales, el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 (RGPD) y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD), le informamos sobre el tratamiento de sus datos personales."
-            },
-            "responsible": {
-                "title": "Responsable del Tratamiento",
-                "denomination": "Denominación:",
-                "address": "Dirección:",
-                "phone": "Teléfono:",
-                "email": "Email:"
-            },
-            "data_collected": {
-                "title": "Datos que Recopilamos",
-                "intro": "Los datos personales que podemos recopilar incluyen:",
-                "items": [
-                    "Datos de contacto (nombre, teléfono, email) cuando nos contacta para reservas o consultas",
-                    "Información de reservas (fecha, hora, número de comensales, preferencias alimentarias)",
-                    "Datos de navegación básicos (dirección IP, tipo de navegador, páginas visitadas)"
-                ]
-            },
-            "purpose": {
-                "title": "Finalidad del Tratamiento",
-                "intro": "Sus datos personales serán tratados para las siguientes finalidades:",
-                "items": [
-                    "Gestión de reservas y servicios del restaurante",
-                    "Atención al cliente y resolución de consultas",
-                    "Comunicaciones relacionadas con nuestros servicios",
-                    "Cumplimiento de obligaciones legales",
-                    "Mejora de nuestros servicios y experiencia del usuario"
-                ]
-            },
-            "legal_basis": {
-                "title": "Base Legal",
-                "intro": "El tratamiento de sus datos se basa en:",
-                "contractual": "Ejecución contractual: Para la prestación de servicios de restauración y gestión de reservas",
-                "consent": "Consentimiento: Para comunicaciones promocionales (cuando aplique)",
-                "legitimate": "Interés legítimo: Para la mejora de nuestros servicios",
-                "legal": "Cumplimiento legal: Para cumplir con obligaciones fiscales y contables"
-            },
-            "retention": {
-                "title": "Conservación de Datos",
-                "content": "Sus datos personales se conservarán durante el tiempo necesario para cumplir con las finalidades para las que fueron recogidos y, en todo caso, durante los plazos previstos legalmente. Los datos de reservas se conservarán durante 6 años para cumplir con obligaciones fiscales."
-            },
-            "recipients": {
-                "title": "Destinatarios de los Datos",
-                "intro": "Sus datos no serán cedidos a terceros, salvo obligación legal. Únicamente podrán ser comunicados a:",
-                "items": [
-                    "Administraciones públicas cuando sea legalmente exigible",
-                    "Proveedores de servicios tecnológicos bajo estrictas condiciones de confidencialidad"
-                ]
-            },
-            "rights": {
-                "title": "Sus Derechos",
-                "intro": "Usted tiene derecho a:",
-                "access": "Acceso: Conocer qué datos tenemos sobre usted",
-                "rectification": "Rectificación: Corregir datos inexactos o incompletos",
-                "erasure": "Supresión: Solicitar la eliminación de sus datos",
-                "restriction": "Limitación: Restringir el tratamiento de sus datos",
-                "portability": "Portabilidad: Recibir sus datos en formato estructurado",
-                "objection": "Oposición: Oponerse al tratamiento de sus datos",
-                "exercise": "Para ejercer estos derechos, puede contactarnos en info@banyslagavina.cat o en la dirección postal indicada anteriormente."
-            },
-            "authority": {
-                "title": "Autoridad de Control",
-                "content": "Si considera que el tratamiento de sus datos no se ajusta a la normativa, puede presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) a través de su sede electrónica (www.aepd.es) o en su dirección postal: C/ Jorge Juan, 6, 28001 Madrid."
-            },
-            "cookies": {
-                "title": "Información sobre Cookies",
-                "important": "IMPORTANTE:",
-                "no_cookies": "Este sitio web NO utiliza cookies de ningún tipo. No instalamos cookies en su dispositivo, no realizamos seguimiento de su actividad de navegación y no recopilamos datos mediante cookies de terceros. Por tanto, no es necesario su consentimiento para el uso de cookies.",
-                "basic_data": "Únicamente se procesan datos básicos de navegación (como su dirección IP) que son necesarios para el funcionamiento técnico del sitio web y que se eliminan automáticamente al cerrar su sesión de navegación."
-            },
-            "security": {
-                "title": "Seguridad",
-                "content": "Hemos implementado medidas de seguridad técnicas y organizativas apropiadas para proteger sus datos personales contra el acceso no autorizado, alteración, divulgación o destrucción accidental."
-            },
-            "modifications": {
-                "title": "Modificaciones",
-                "content": "Nos reservamos el derecho a modificar esta Política de Privacidad. Cualquier cambio será publicado en esta página con la fecha de última actualización."
-            }
-        },
-        "last_updated": "Última actualización:",
-        "date": "8 de octubre de 2025"
-    },
-    "legal": {
-        "title": "Aviso Legal",
-        "metaTitle": "Aviso Legal - Restaurante Banys La Gavina",
-        "metaDescription": "Aviso legal e información general del Restaurante Banys La Gavina. Cumplimiento LSSI y servicios de la sociedad de la información.",
-        "sections": {
-            "general": {
-                "title": "Información General",
-                "content": "En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, se informa de los siguientes aspectos legales:"
-            },
-            "owner": {
-                "title": "Datos del Titular",
-                "denomination": "Denominación:",
-                "address": "Dirección:",
-                "phone": "Teléfono:",
-                "email": "Email:"
-            },
-            "purpose": {
-                "title": "Objeto",
-                "content": "El presente sitio web tiene por objeto la presentación de información sobre el Restaurante Banys La Gavina y sus servicios, así como facilitar un canal de contacto para reservas y consultas."
-            },
-            "data_protection": {
-                "title": "Protección de Datos",
-                "content": "El tratamiento de datos personales se realiza conforme a nuestra Política de Privacidad y las disposiciones vigentes del RGPD y LOPD-GDD."
-            },
-            "intellectual_property": {
-                "title": "Propiedad Intelectual",
-                "content": "Todos los contenidos de este sitio web (textos, imágenes, gráficos, logotipo, iconos de botones, archivos de audio y vídeo y su selección y disposición) son propiedad del Restaurante Banys La Gavina o se utilizan con la debida autorización y están protegidos por las leyes de derechos de autor y otras leyes de protección de la propiedad intelectual."
-            },
-            "liability": {
-                "title": "Responsabilidad",
-                "content": "El Restaurante Banys La Gavina se esfuerza por asegurar que la información contenida en este sitio web sea correcta y esté actualizada, sin embargo, no asume responsabilidad alguna por posibles errores, omisiones o cambios en la información proporcionada."
-            },
-            "external_links": {
-                "title": "Enlaces Externos",
-                "content": "Este sitio web puede contener enlaces a sitios web externos. El Restaurante Banys La Gavina no se hace responsable del contenido o las prácticas de privacidad de estos sitios web."
-            },
-            "applicable_law": {
-                "title": "Ley Aplicable",
-                "content": "El presente aviso legal se rige por la legislación española. Para cualquier controversia que pudiera derivarse del uso de este sitio web, las partes se someten a los Juzgados y Tribunales de Barcelona."
-            },
-            "no_cookies": {
-                "title": "Sitio Web sin Cookies",
-                "important": "IMPORTANTE:",
-                "content": "Este sitio web NO utiliza cookies de ningún tipo. No instalamos cookies de seguimiento, analíticas o de terceros en su dispositivo. Por tanto, no es necesario su consentimiento para el uso de cookies y no verá banners de cookies ni avisos similares. Respetamos completamente su privacidad y solo recopilamos los datos esenciales necesarios para prestar nuestros servicios."
-            }
-        },
-        "last_updated": "Última actualización:",
-        "date": "8 de octubre de 2025"
-    },
-    "footer": {
-        "description": "Restaurante Banys La Gavina, tradición familiar desde 1958 en primera línea de mar en Calella.",
-        "quick_links": "Enlaces Rápidos",
-        "contact": {
-            "title": "Contacto"
-        },
-        "language_selector": "Idioma",
-        "privacy_policy": "Política de Privacidad",
-        "copyright": "© 2025 Restaurante Banys La Gavina. Todos los derechos reservados."
+    "recommended": "Recomendado",
+    "categoryNames": {
+      "ENTRANTS": "Entrantes",
+      "CARN": "Carnes",
+      "PEIX": "Pescados",
+      "MARISC": "Mariscos",
+      "POSTRES": "Postres",
+      "BEGUDES": "Bebidas",
+      "ARROSSOS": "Arroces"
     }
+  },
+  "contact_section": {
+    "title": "Visítanos",
+    "title2": "",
+    "subtitle": "Estamos en el corazón de Calella",
+    "cta": "Cómo llegar"
+  },
+  "contact": {
+    "metaTitle": "Contacto - Restaurant Banys La Gavina - Calella, Barcelona",
+    "metaDescription": "Contacta con Restaurant Banys La Gavina. Reservas, información y ubicación en Calella, Barcelona. ¡Te esperamos!",
+    "title": "Contacto",
+    "subtitle": "Estamos aquí para atenderte",
+    "description": "¿Tienes alguna pregunta o quieres hacer una reserva? Contáctanos y estaremos encantados de ayudarte.",
+    "fields": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "Mensaje enviado correctamente",
+      "error": "Error al enviar el mensaje"
+    },
+    "whatsapp": {
+      "title": "¿Prefieres WhatsApp?",
+      "button": "Contactar por WhatsApp"
+    }
+  },
+  "history": {
+    "metaTitle": "Nuestra Historia - Restaurant Banys La Gavina",
+    "metaDescription": "Descubre la historia del Restaurant Banys La Gavina y la rica tradición culinaria de Calella, Barcelona.",
+    "title": "Nuestra Historia",
+    "subtitle": "Una tradición familiar que perdura",
+    "timeline": [
+      {
+        "year": "1916",
+        "title": "Inicio de una Tradición",
+        "description": "Se establece el primer baño en la playa de Calella, marcando el inicio de una tradición centenaria en este emblemático lugar."
+      },
+      {
+        "year": "1920-1950",
+        "title": "La Época Dorada",
+        "description": "Los baños de la playa se convierten en un punto de encuentro social, donde las familias catalanas disfrutan del verano mediterráneo."
+      },
+      {
+        "year": "1960-1980",
+        "title": "Transformación Cultural",
+        "description": "Calella se transforma en un destino turístico internacional, y los baños evolucionan para adaptarse a los nuevos tiempos."
+      },
+      {
+        "year": "1995",
+        "title": "Nace La Gavina",
+        "description": "En este lugar histórico, nace el Restaurant Banys La Gavina, fusionando la tradición de los baños con la excelencia culinaria."
+      },
+      {
+        "year": "2000-Presente",
+        "title": "Una Nueva Era",
+        "description": "Manteniendo viva la tradición, el restaurante se renueva constantemente, ofreciendo lo mejor de la cocina mediterránea en un entorno único."
+      }
+    ],
+    "sections": {
+      "origin": {
+        "title": "Los Orígenes",
+        "content": "La historia de nuestro restaurante está profundamente arraigada en la tradición de los baños de playa de Calella. Desde principios del siglo XX, este lugar ha sido un punto de encuentro para las familias que buscaban disfrutar del mar Mediterráneo."
+      },
+      "calella_context": {
+        "title": "Calella: Un Pueblo con Historia",
+        "content": "Calella es un municipio con más de mil años de historia, situada en el Maresme, a 50 km de Barcelona. Su posición privilegiada entre el mar y la montaña la ha convertido en un lugar especial, donde la tradición pesquera se mezcla con el turismo y la gastronomía."
+      },
+      "golden_era": {
+        "title": "La Época Dorada de los Baños",
+        "content": "Durante las décadas de 1920 a 1950, los baños de playa eran instituciones sociales fundamentales. Las familias pasaban veranos enteros en Calella, y los baños no eran solo lugares para cambiarse, sino verdaderos centros de vida social frente al mar."
+      },
+      "tradition": {
+        "title": "Tradición Culinaria",
+        "content": "La cocina catalana del Maresme siempre ha estado marcada por la fusión de productos del mar y de la montaña. Nuestro restaurante honra esta tradición, utilizando las mejores materias primas locales para crear platos que cuentan la historia de nuestra tierra."
+      },
+      "calella_cinema": {
+        "title": "Calella en el Cine",
+        "content": "La belleza de Calella ha sido inmortalizada en diversas producciones cinematográficas. El pueblo ha servido de escenario para películas españolas e internacionales, añadiendo un toque de glamour a su rica historia."
+      },
+      "present": {
+        "title": "El Presente",
+        "content": "Hoy, el Restaurant Banys La Gavina es un lugar donde se encuentran la historia y la modernidad. Mantenemos viva la tradición de los antiguos baños mientras ofrecemos una experiencia gastronómica contemporánea, siempre con el mar Mediterráneo como telón de fondo."
+      }
+    },
+    "heritage": {
+      "title": "Nuestro Patrimonio",
+      "items": [
+        {
+          "icon": "🏛️",
+          "title": "Historia Centenaria",
+          "description": "Más de 100 años de tradición en este emblemático lugar"
+        },
+        {
+          "icon": "🌊",
+          "title": "Frente al Mar",
+          "description": "Ubicación privilegiada en la costa del Maresme"
+        },
+        {
+          "icon": "👨‍🍳",
+          "title": "Cocina Auténtica",
+          "description": "Recetas tradicionales catalanas con productos locales"
+        },
+        {
+          "icon": "🎬",
+          "title": "Escenario de Cine",
+          "description": "Parte del patrimonio cultural cinematográfico de Cataluña"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ven a Formar Parte de Nuestra Historia",
+      "subtitle": "Vive la experiencia La Gavina",
+      "contact_button": "Contactar",
+      "menu_button": "Ver Carta"
+    }
+  },
+  "privacy": {
+    "metaTitle": "Política de Privacidad - Restaurant Banys La Gavina",
+    "metaDescription": "Política de privacidad y protección de datos del Restaurant Banys La Gavina.",
+    "title": "Política de Privacidad",
+    "last_updated": "Última actualización",
+    "sections": {
+      "intro": {
+        "title": "Introducción",
+        "content": "En Restaurant Banys La Gavina, nos comprometemos a proteger su privacidad y sus datos personales. Esta política de privacidad explica cómo recopilamos, usamos y protegemos su información."
+      },
+      "data_collection": {
+        "title": "Recopilación de Datos",
+        "content": "Recopilamos información personal que usted nos proporciona directamente, como nombre, correo electrónico, teléfono y cualquier otro dato que nos facilite al hacer una reserva o contactar con nosotros."
+      },
+      "data_use": {
+        "title": "Uso de los Datos",
+        "content": "Utilizamos sus datos personales para gestionar reservas, responder a sus consultas, mejorar nuestros servicios y, si ha dado su consentimiento, enviarle información sobre nuestro restaurante."
+      },
+      "data_protection": {
+        "title": "Protección de Datos",
+        "content": "Implementamos medidas de seguridad técnicas y organizativas para proteger sus datos personales contra acceso no autorizado, pérdida o alteración."
+      },
+      "user_rights": {
+        "title": "Derechos del Usuario",
+        "content": "Tiene derecho a acceder, rectificar, cancelar y oponerse al tratamiento de sus datos personales. Para ejercer estos derechos, puede contactarnos a través de los canales indicados en esta página."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "Nuestro sitio web utiliza cookies para mejorar la experiencia del usuario. Puede configurar su navegador para rechazar cookies, aunque esto puede afectar a la funcionalidad del sitio."
+      },
+      "contact": {
+        "title": "Contacto",
+        "content": "Si tiene alguna pregunta sobre esta política de privacidad, puede contactarnos en:"
+      }
+    }
+  },
+  "legal": {
+    "metaTitle": "Aviso Legal - Restaurant Banys La Gavina",
+    "metaDescription": "Aviso legal del sitio web del Restaurant Banys La Gavina.",
+    "title": "Aviso Legal",
+    "sections": {
+      "general": {
+        "content": "De conformidad con lo establecido en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, se informa a los usuarios del sitio web la siguiente información:"
+      },
+      "owner": {
+        "title": "Datos del Titular",
+        "denomination": "Denominación social:",
+        "address": "Dirección:",
+        "phone": "Teléfono:",
+        "email": "Email:"
+      },
+      "purpose": {
+        "title": "Objeto",
+        "content": "El presente aviso legal regula el uso del sitio web del Restaurant Banys La Gavina. La navegación por el sitio web atribuye la condición de usuario y conlleva la aceptación plena de todas las disposiciones incluidas en este aviso legal."
+      },
+      "data_protection": {
+        "title": "Protección de Datos",
+        "content": "Los datos personales facilitados a través de este sitio web serán tratados conforme a lo establecido en nuestra"
+      },
+      "intellectual_property": {
+        "title": "Propiedad Intelectual",
+        "content": "Todos los contenidos del sitio web, incluyendo textos, fotografías, gráficos, imágenes, iconos, tecnología, software, links y demás contenidos audiovisuales o sonoros, así como su diseño gráfico y códigos fuente, son propiedad del Restaurant Banys La Gavina, sin que puedan entenderse cedidos al usuario ninguno de los derechos de explotación reconocidos por la normativa vigente en materia de propiedad intelectual sobre los mismos."
+      },
+      "liability": {
+        "title": "Limitación de Responsabilidad",
+        "content": "El Restaurant Banys La Gavina no se hace responsable de los daños y perjuicios de cualquier naturaleza que pudieran derivarse de la falta de disponibilidad o de continuidad del funcionamiento del sitio web, de la falta de utilidad del sitio web o de cualquiera de los contenidos y servicios para cualquier propósito concreto, ni de los daños y perjuicios que puedan derivarse de la falta de veracidad, exactitud, exhaustividad y/o actualidad de los contenidos."
+      },
+      "external_links": {
+        "title": "Enlaces Externos",
+        "content": "El sitio web puede contener enlaces a sitios web de terceros. El Restaurant Banys La Gavina no asume ninguna responsabilidad por el contenido, políticas de privacidad o prácticas de sitios web de terceros."
+      }
+    }
+  },
+  "footer": {
+    "description": "Restaurante tradicional en Calella, Barcelona. Cocina mediterránea auténtica frente al mar.",
+    "privacy_policy": "Política de Privacidad",
+    "contact": {
+      "title": "Contacto"
+    },
+    "copyright": "Todos los derechos reservados.",
+    "language_selector": "Seleccionar idioma"
+  }
 }

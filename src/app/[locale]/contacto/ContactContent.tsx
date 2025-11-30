@@ -22,9 +22,9 @@ export default function ContactContent({ locale }: ContactContentProps) {
     {
       icon: '📍',
       title: 'Ubicación',
-      value: 'Carrer Sant Pere, 27',
+      value: 'Carrer de les Creus, 12',
       subtitle: '08370 Calella, Barcelona',
-      link: 'https://maps.google.com/?q=Carrer+Sant+Pere+27+Calella'
+      link: 'https://www.google.com/maps/search/?api=1&query=La+Fusta+Carrer+de+les+Creus+12+Calella'
     },
     {
       icon: '📞',
@@ -234,13 +234,14 @@ export default function ContactContent({ locale }: ContactContentProps) {
               className="relative h-[500px]"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.123456789!2d2.65!3d41.61!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDM2JzM2LjAiTiAywrAzOScwMC4wIkU!5e0!3m2!1ses!2ses!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.5!2d2.6601!3d41.6127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bae6c8e8c8c8c8%3A0x0!2zNDHCsDM2JzQ1LjciTiAywrAzOSczNi4wIkU!5e0!3m2!1ses!2ses!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                title="Mapa de La Fusta - Carrer de les Creus, 12, Calella"
               />
             </motion.div>
           </motion.div>

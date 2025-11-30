@@ -13,7 +13,7 @@ export function LocationSectionNew() {
     {
       icon: "📍",
       title: "Dirección",
-      info: "Calle Mayor, 15\nCalella, Barcelona",
+      info: "Carrer de les Creus, 12\n08370 Calella, Barcelona",
       color: "from-blue-500 to-cyan-500"
     },
     {
@@ -227,12 +227,13 @@ export function LocationSectionNew() {
               
               {/* Iframe del mapa */}
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.123456789!2d2.65864!3d41.61414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDM2JzUwLjkiTiAywrAzOSczMS4xIkU!5e0!3m2!1ses!2ses!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.5!2d2.6601!3d41.6127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bae6c8e8c8c8c8%3A0x0!2zNDHCsDM2JzQ1LjciTiAywrAzOSczNi4wIkU!5e0!3m2!1ses!2ses!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
+                title="Mapa de La Fusta - Carrer de les Creus, 12, Calella"
                 className="relative z-0"
               />
 
