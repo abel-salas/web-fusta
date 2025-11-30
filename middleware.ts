@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 // Configuración de idiomas directa para el middleware
-const locales = ["es", "en", "ca", "nl", "de"];
+const locales = ["es"]; // , "en", "ca", "nl", "de"
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;

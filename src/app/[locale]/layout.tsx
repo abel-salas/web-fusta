@@ -29,9 +29,11 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-    return SEO_CONFIG.site.supportedLocales.map((locale) => ({
-        locale,
-    }));
+    // Temporalmente solo generamos ES mientras se completa el desarrollo
+    return [{ locale: 'es' }];
+    // return SEO_CONFIG.site.supportedLocales.map((locale) => ({
+    //     locale,
+    // }));
 }
 
 export default async function LocaleLayout({
@@ -49,19 +51,19 @@ export default async function LocaleLayout({
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: generateRestaurantJsonLd(validLocale),
+                    __html: JSON.stringify(generateRestaurantJsonLd(validLocale)),
                 }}
             />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: generateWebsiteJsonLd(validLocale),
+                    __html: JSON.stringify(generateWebsiteJsonLd(validLocale)),
                 }}
             />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: generateFAQSchema(validLocale),
+                    __html: JSON.stringify(generateFAQSchema(validLocale)),
                 }}
             />
 

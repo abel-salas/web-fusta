@@ -97,7 +97,7 @@ export default async function MenuPage({ params }: { params: Promise<{ locale: s
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: generateMenuSchema(validLocale),
+          __html: JSON.stringify(generateMenuSchema(validLocale)),
         }}
       />
       <MenuContent dict={dict} menuData={menuDataByCategory} menuContent={menuContentInfo} />

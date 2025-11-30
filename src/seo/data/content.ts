@@ -1,4 +1,8 @@
 // Datos SEO específicos por idioma para Restaurant La Fusta
+
+export type SupportedLocale = 'es' | 'ca' | 'en' | 'de' | 'nl';
+export type PageType = 'home' | 'carta' | 'contacto' | 'historia';
+
 export const SEO_DATA = {
     es: {
         site: {

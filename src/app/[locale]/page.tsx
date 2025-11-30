@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
-import { getLocalizedData } from "../lib/localization";
+import { getDictionary } from "../lib/getDictionary";
 import { generatePageMetadata, getValidLocale } from '@/seo';
-import { HeroSectionNew } from '../components/sections/HeroSectionNew';
+import { HeroSectionModern } from '../components/sections/HeroSectionModern';
+import { StatsSection } from '../components/sections/StatsSection';
+import { MenuPreviewSection } from '../components/sections/MenuPreviewSection';
 import { SpecialtiesSection } from '../components/sections/SpecialtiesSectionNew';
-import { FeaturedDishesSection } from '../components/sections/FeaturedDishesSection';
-import { AboutSectionNew } from '../components/sections/AboutSectionNew';
+import { TestimonialsSection } from '../components/sections/TestimonialsSection';
+import { ReservationCTASection } from '../components/sections/ReservationCTASection';
 import { LocationSectionNew } from '../components/sections/LocationSectionNew';
 
 export async function generateMetadata({
@@ -24,27 +26,34 @@ export async function generateMetadata({
 
 export default async function LocaleHomePage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
-    const { dict, href } = getLocalizedData(locale);
+    const dict = await getDictionary(locale);
 
     return (
         <>
-            {/* Hero Section con animaciones espectaculares */}
-            <HeroSectionNew
+            {/* Hero moderno con parallax */}
+            <HeroSectionModern
                 title="La Fusta"
-                subtitle="Tapas & Tradición en el Corazón de Calella"
-                description="Auténtica cocina mediterránea con el sabor de siempre en pleno centro de Calella"
-                ctaText="Descubre Nuestra Carta"
-                ctaHref={href('/carta')}
+                subtitle="Desde 1995 · Cocina Mediterránea de Primera"
+                ctaText="Ver Carta"
+                ctaHref="/es/carta"
+                secondaryCtaText="Reservar Mesa"
+                secondaryCtaHref="/es/reservas"
             />
 
-            {/* Sección Sobre Nosotros */}
-            <AboutSectionNew />
+            {/* Estadísticas animadas */}
+            <StatsSection />
+
+            {/* Preview del menú por categorías */}
+            <MenuPreviewSection />
 
             {/* Sección de Especialidades */}
             <SpecialtiesSection />
 
-            {/* Carousel Vertical de Platos Estrella */}
-            <FeaturedDishesSection />
+            {/* Testimonios de clientes */}
+            <TestimonialsSection />
+
+            {/* Call to action de reservas */}
+            <ReservationCTASection />
 
             {/* Sección de Ubicación */}
             <LocationSectionNew />
