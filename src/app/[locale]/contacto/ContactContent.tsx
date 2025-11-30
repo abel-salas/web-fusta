@@ -3,7 +3,6 @@ import type { Route } from 'next';
 // import { getContactInfo } from "@/app/lib/contact-utils"; // No usado actualmente
 import HoursSection from "@/app/components/HoursSection";
 import SocialMedia from '@/app/components/SocialMedia';
-import ReservationForm from "@/app/components/ReservationForm";
 import { getLocalizedData } from '@/app/lib/localization';
 
 // Interfaz para datos desde Sanity
@@ -14,23 +13,6 @@ interface ContactContent {
     badge: string;
     title: string;
     subtitle: string;
-  };
-  reservationCta: {
-    title: string;
-    description: string;
-    buttonText: string;
-  };
-  celebrationsSection: {
-    title: string;
-    subtitle?: string;
-    description: string;
-    celebrationTypes: Array<{
-      icon: string;
-      iconColor: string;
-      title: string;
-      features: string[];
-    }>;
-    ctaText: string;
   };
   contactInfo: {
     title: string;
@@ -110,71 +92,6 @@ export default function ContactContent({ content, locale }: ContactContentProps)
         <p className="text-xl text-gray-600 mb-8">
           {content.hero.subtitle}
         </p>
-        
-        {/* CTA para reservas */}
-        <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl inline-block">
-          <p className="text-blue-800 font-medium mb-4">
-            {content.reservationCta.title}
-          </p>
-          <p className="text-gray-700 mb-4">
-            {content.reservationCta.description}
-          </p>
-          <Link 
-            href={href('/reservas') as Route}
-            className="bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors inline-block"
-          >
-            {content.reservationCta.buttonText}
-          </Link>
-        </div>
-      </section>
-
-      {/* Sección de Celebraciones */}
-      <section className="bg-gradient-to-br from-yellow-50 to-orange-100 rounded-2xl p-8 mb-12">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            {content.celebrationsSection.title}
-          </h2>
-          {content.celebrationsSection.subtitle && (
-            <p className="text-xl text-gray-600 mb-6">
-              {content.celebrationsSection.subtitle}
-            </p>
-          )}
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
-            {content.celebrationsSection.description}
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          {content.celebrationsSection.celebrationTypes.map((celebrationType, index) => (
-            <div key={index} className="bg-white p-6 rounded-xl shadow-md">
-              <div className="text-center mb-4">
-                <div 
-                  className="text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4"
-                  style={{ backgroundColor: celebrationType.iconColor }}
-                >
-                  <span className="material-icons-outlined text-2xl">{celebrationType.icon}</span>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900">
-                  {celebrationType.title}
-                </h3>
-              </div>
-              <ul className="text-gray-700 space-y-2">
-                {celebrationType.features.map((feature, featureIndex) => (
-                  <li key={featureIndex}>• {feature}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-
-        <div className="text-center mt-8">
-          <Link
-            href={href('/celebraciones') as Route}
-            className="bg-yellow-600 text-white font-bold py-3 px-8 rounded-full hover:bg-yellow-700 transition-colors inline-block"
-          >
-            {content.celebrationsSection.ctaText}
-          </Link>
-        </div>
       </section>
 
       <div className="grid md:grid-cols-2 gap-12">
@@ -231,11 +148,19 @@ export default function ContactContent({ content, locale }: ContactContentProps)
           </div>
         </section>
 
-        {/* Formulario de Contacto */}
-        <ReservationForm 
-          title={content.contactForm.title}
-          description={content.contactForm.description || ''}
-        />
+        {/* Formulario de Contacto Simple */}
+        <section className="bg-white p-8 rounded-lg shadow-md">
+          <h2 className="text-2xl font-semibold mb-6 text-blue-800">
+            {content.contactForm.title}
+          </h2>
+          {content.contactForm.description && (
+            <p className="text-gray-700 mb-6">{content.contactForm.description}</p>
+          )}
+          
+          <div className="text-center py-8">
+            <p className="text-gray-600 mb-4">Para contactar con nosotros, utiliza los datos de la izquierda o visítanos directamente.</p>
+          </div>
+        </section>
       </div>
 
       {/* CTA Final */}
