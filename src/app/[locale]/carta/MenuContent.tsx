@@ -103,51 +103,73 @@ export default function MenuContent({ dict, menuData, menuContent }: MenuContent
 
     return (
         <>
-            <main className="pt-12">
-                {/* Content */}
-                <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-                    <h1 className="text-5xl md:text-6xl font-parisienne mb-6">
-                        {menuContent?.title || dict.menu?.title || "Nuestra Carta"}
-                    </h1>
-                    <p className="text-xl mb-8 max-w-3xl mx-auto">
-                        {menuContent?.subtitle || dict.menu?.subtitle || "Cocina mediterránea inspirada en los productos del mar"}
-                    </p>
+            <main className="pt-12 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100 min-h-screen">
+                {/* Hero con estilo madera */}
+                <div className="relative py-16 overflow-hidden">
+                    {/* Textura de madera animada */}
+                    <div className="absolute inset-0 opacity-5" style={{
+                        backgroundImage: 'repeating-linear-gradient(90deg, #8B4513 0px, #A0522D 2px, #8B4513 4px)'
+                    }} />
+                    
+                    <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+                        {/* Badge tradicional */}
+                        <div className="inline-block mb-6">
+                            <div className="bg-gradient-to-br from-amber-800 to-amber-900 text-amber-50 px-8 py-3 rounded-none relative border-4 border-amber-700 shadow-xl">
+                                <div className="absolute -top-1 -left-1 w-3 h-3 bg-amber-900 rounded-full" />
+                                <div className="absolute -top-1 -right-1 w-3 h-3 bg-amber-900 rounded-full" />
+                                <div className="absolute -bottom-1 -left-1 w-3 h-3 bg-amber-900 rounded-full" />
+                                <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-amber-900 rounded-full" />
+                                <span className="font-bold tracking-widest text-sm">NUESTRA CARTA</span>
+                            </div>
+                        </div>
+                        
+                        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-amber-900" style={{
+                            textShadow: '3px 3px 0px rgba(180, 83, 9, 0.2)',
+                            fontFamily: 'Georgia, serif'
+                        }}>
+                            {menuContent?.title || dict.menu?.title || "Sabores Tradicionales"}
+                        </h1>
+                        <p className="text-xl md:text-2xl text-amber-800 mb-8 max-w-3xl mx-auto font-serif">
+                            {menuContent?.subtitle || dict.menu?.subtitle || "Tapas auténticas en el corazón de Calella"}
+                        </p>
+                        <div className="h-1 w-64 mx-auto bg-gradient-to-r from-transparent via-amber-800 to-transparent" />
+                    </div>
                 </div>
 
                 <div className="container mx-auto px-4 py-8">
-                    <section className="grid lg:grid-cols-2 gap-8">
+                    <section className="grid lg:grid-cols-2 gap-6">
                         {categories.map(({ key, data }) => (
-                            <article key={key} className="bg-white p-6 rounded-lg shadow-md">
+                            <article key={key} className="bg-gradient-to-br from-amber-100 to-amber-200 p-8 rounded-none shadow-xl border-4 border-amber-800 relative">
                                 <div className="mb-6">
                                     <h2 className="text-2xl font-semibold mb-2 text-blue-800">{data.title}</h2>
                                     {data.subtitle && (
                                         <p className="text-sm text-gray-500 italic">{data.subtitle}</p>
                                     )}
                                 </div>
-                                <div className="space-y-4">
+                                <div className="space-y-4 relative z-10">
                                     {data.items.map((item: MenuCategory['items'][0], index: number) => (
                                         <div
                                             key={index}
-                                            className={`border-b pb-4 last:border-b-0 p-2 rounded transition-colors ${item.image ? 'cursor-pointer hover:bg-gray-50' : ''}`}
+                                            className={`border-b-2 border-amber-700 pb-4 last:border-b-0 p-3 rounded-none transition-all ${item.image ? 'cursor-pointer hover:bg-amber-50/50 hover:shadow-md' : ''}`}
                                             onClick={() => item.image && openModal(item)}
                                         >
                                             <div className="flex justify-between items-start mb-2">
-                                                <h3 className={`font-medium text-gray-900 flex-1 transition-colors ${item.image ? 'hover:text-blue-600' : ''}`}>
+                                                <h3 className={`font-semibold text-amber-900 flex-1 transition-colors ${item.image ? 'hover:text-amber-700' : ''}`}>
                                                     {item.name}
                                                     {item.recommended && (
-                                                        <span className="ml-2 text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full">
-                                                            {dict.menu?.recommended || 'Recomendado'}
+                                                        <span className="ml-2 text-xs bg-amber-800 text-amber-50 px-3 py-1 rounded-none border-2 border-amber-950 font-bold">
+                                                            ⭐ {dict.menu?.recommended || 'Recomendado'}
                                                         </span>
                                                     )}
                                                     {item.image && (
-                                                        <span className="ml-2 text-blue-500 hover:text-blue-700 transition-colors inline-flex items-center align-middle" title="Ver imagen del plato">
+                                                        <span className="ml-2 text-amber-700 hover:text-amber-900 transition-colors inline-flex items-center align-middle" title="Ver imagen del plato">
                                                             <span className="material-icons-outlined text-[16px] leading-none">photo_camera</span>
                                                         </span>
                                                     )}
                                                 </h3>
-                                                <span className="text-blue-600 font-semibold ml-4">{item.price}</span>
+                                                <span className="text-amber-900 font-bold ml-4 text-lg">{item.price}</span>
                                             </div>
-                                            <p className="text-gray-600 text-sm">{item.description}</p>
+                                            <p className="text-amber-800 text-sm">{item.description}</p>
 
                                             {/* Allergens */}
                                             {item.allergens && item.allergens.length > 0 && (
@@ -180,9 +202,14 @@ export default function MenuContent({ dict, menuData, menuContent }: MenuContent
                 </div>
 
                 {/* Allergens Legend - Horizontal scroll on mobile */}
-                <section className="bg-orange-50 py-6 mt-8">
-                    <div className="container mx-auto px-4">
-                        <h3 className="text-lg font-semibold text-gray-800 mb-4 text-center">
+                <section className="bg-gradient-to-r from-amber-900 to-amber-800 py-8 mt-8 border-y-4 border-amber-950 relative">
+                    {/* Textura de vetas */}
+                    <div className="absolute inset-0 opacity-10" style={{
+                        backgroundImage: 'repeating-linear-gradient(0deg, #654321 0px, #8B4513 3px, #654321 6px)'
+                    }} />
+                    
+                    <div className="container mx-auto px-4 relative z-10">
+                        <h3 className="text-2xl font-bold text-amber-50 mb-6 text-center uppercase tracking-widest font-serif">
                             {dict.menu?.allergens?.legend || 'Leyenda de Alérgenos'}
                         </h3>
                         <div className="overflow-x-auto">
@@ -219,37 +246,55 @@ export default function MenuContent({ dict, menuData, menuContent }: MenuContent
                 </section>
 
                 {/* Menu Description Section */}
-                <section className="menu-description py-16 bg-white">
-                    <div className="container mx-auto px-4">
-                        <div className="text-center max-w-4xl mx-auto">
-                            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                                {menuContent?.description || dict.menu?.description || "El chef ha creado este menú inspirándose en los productos del mar y en nuestra cocina mediterránea, sin descuidar las buenas carnes y los platos de temporada. Siempre trabajando con productos de primera calidad y cuidando mucho la presentación."}
+                <section className="menu-description py-16 bg-gradient-to-br from-amber-100 to-amber-200 border-y-4 border-amber-900 relative">
+                    {/* Decoración de vetas */}
+                    <div className="absolute inset-0 opacity-5" style={{
+                        backgroundImage: `radial-gradient(ellipse at 30% 40%, #654321 0%, transparent 50%),
+                                         radial-gradient(ellipse at 70% 60%, #8B4513 0%, transparent 50%)`
+                    }} />
+                    
+                    <div className="container mx-auto px-4 relative z-10">
+                        <div className="text-center max-w-4xl mx-auto bg-amber-50 p-8 border-4 border-amber-800 rounded-none shadow-2xl">
+                            {/* Clavos decorativos */}
+                            <div className="absolute top-2 left-2 w-4 h-4 bg-amber-900 rounded-full" />
+                            <div className="absolute top-2 right-2 w-4 h-4 bg-amber-900 rounded-full" />
+                            <div className="absolute bottom-2 left-2 w-4 h-4 bg-amber-900 rounded-full" />
+                            <div className="absolute bottom-2 right-2 w-4 h-4 bg-amber-900 rounded-full" />
+                            
+                            <p className="text-xl text-amber-900 max-w-3xl mx-auto leading-relaxed font-serif relative z-10">
+                                {menuContent?.description || dict.menu?.description || "En La Fusta trabajamos con productos de primera calidad, elaborando tapas tradicionales con el sabor auténtico de siempre. Cada plato cuenta una historia, cada ingrediente se selecciona con mimo."}
                             </p>
                         </div>
                     </div>
                 </section>
             </main>
 
-            {/* Modal */}
+            {/* Modal con estilo madera */}
             {modal.isOpen && (
                 <div
-                    className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+                    className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4"
                     onClick={closeModal}
                 >
                     <div
-                        className="relative bg-white rounded-lg max-w-4xl max-h-[90vh] w-[90vw] overflow-hidden"
+                        className="relative bg-gradient-to-br from-amber-100 to-amber-200 rounded-none max-w-4xl max-h-[90vh] w-[90vw] overflow-hidden border-8 border-amber-900 shadow-2xl"
                         onClick={(e) => e.stopPropagation()}
                     >
+                        {/* Esquinas decorativas */}
+                        <div className="absolute top-0 left-0 w-12 h-12 border-t-4 border-l-4 border-amber-700 z-10" />
+                        <div className="absolute top-0 right-0 w-12 h-12 border-t-4 border-r-4 border-amber-700 z-10" />
+                        <div className="absolute bottom-0 left-0 w-12 h-12 border-b-4 border-l-4 border-amber-700 z-10" />
+                        <div className="absolute bottom-0 right-0 w-12 h-12 border-b-4 border-r-4 border-amber-700 z-10" />
+                        
                         {/* Close button */}
                         <button
                             onClick={closeModal}
-                            className="absolute top-4 right-4 z-10 bg-black bg-opacity-50 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-opacity-75 transition-colors"
+                            className="absolute top-4 right-4 z-20 bg-amber-900 text-amber-50 rounded-none w-10 h-10 flex items-center justify-center hover:bg-amber-950 transition-colors border-2 border-amber-700 font-bold text-xl shadow-lg"
                         >
                             ✕
                         </button>
 
                         {/* Image */}
-                        <div className="relative w-full h-[60vh]">
+                        <div className="relative w-full h-[60vh] bg-amber-50">
                             <Image
                                 src={modal.imageSrc}
                                 alt={modal.imageAlt}
@@ -260,11 +305,13 @@ export default function MenuContent({ dict, menuData, menuContent }: MenuContent
                         </div>
 
                         {/* Title */}
-                        <div className="p-4">
-                            <h3 className="text-xl font-semibold text-gray-900 mb-2">{modal.title}</h3>
-                            <p className="text-gray-600 text-sm">
-                                {modal.description}
-                            </p>
+                        <div className="p-6 bg-gradient-to-r from-amber-800 to-amber-900 border-t-4 border-amber-950">
+                            <h3 className="text-2xl font-bold text-amber-50 mb-2 font-serif">{modal.title}</h3>
+                            {modal.description && (
+                                <p className="text-amber-100 text-sm">
+                                    {modal.description}
+                                </p>
+                            )}
                         </div>
                     </div>
                 </div>
