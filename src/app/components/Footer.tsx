@@ -20,7 +20,7 @@ export default async function Footer({ params }: { params: Promise<{ locale: str
             <div className="mb-4">
               <Link href={href('/') as Route} className="text-2xl font-bold text-white hover:text-blue-300 transition-colors">
                 <span className="material-icons-outlined mr-2 align-middle">restaurant</span>
-                Restaurant Banys La Gavina Calella
+                Restaurant La Fusta
               </Link>
             </div>
             <p className="text-gray-300 mb-6">
@@ -46,16 +46,6 @@ export default async function Footer({ params }: { params: Promise<{ locale: str
                   </Link>
                 </li>
                 <li>
-                  <Link href={href('/arroces') as Route} className="text-gray-300 hover:text-white transition-colors text-sm">
-                    {(dict.nav as Record<string, string>).paellas || 'Paellas'}
-                  </Link>
-                </li>
-                <li>
-                  <Link href={href('/terraza-vista-mar') as Route} className="text-gray-300 hover:text-white transition-colors text-sm">
-                    {(dict.nav as Record<string, string>).terraza || 'Terraza'}
-                  </Link>
-                </li>
-                <li>
                   <Link href={href('/historia') as Route} className="text-gray-300 hover:text-white transition-colors text-sm">
                     {dict.nav.history}
                   </Link>
@@ -65,18 +55,8 @@ export default async function Footer({ params }: { params: Promise<{ locale: str
 
             {/* Columna 2: Servicios y legal */}
             <div>
-              <h4 className="text-md font-semibold mb-3 text-blue-300">Servicios</h4>
+              <h4 className="text-md font-semibold mb-3 text-blue-300">Información</h4>
               <ul className="space-y-2">
-                <li>
-                  <Link href={href('/reservas') as Route} className="text-gray-300 hover:text-white transition-colors text-sm">
-                    {dict.nav.reservas || 'Reservas'}
-                  </Link>
-                </li>
-                <li>
-                  <Link href={href('/celebraciones') as Route} className="text-gray-300 hover:text-white transition-colors text-sm">
-                    {dict.nav.celebrations}
-                  </Link>
-                </li>
                 <li>
                   <Link href={href('/contacto') as Route} className="text-gray-300 hover:text-white transition-colors text-sm">
                     {dict.nav.contacto || 'Contacto'}
@@ -135,7 +115,7 @@ export default async function Footer({ params }: { params: Promise<{ locale: str
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              {dict.footer?.copyright || '© 2024 Restaurant Banys La Gavina. Todos los derechos reservados.'}
+              {dict.footer?.copyright || '© 2024 Restaurant La Fusta. Todos los derechos reservados.'}
             </div>
 
             {/* Selector de idiomas */}
