@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script para optimizar imágenes del proyecto web-gavina
+# Script para optimizar imágenes del proyecto web-fusta
 # Uso: ./optimize-images.sh [directorio]
 
 IMAGES_DIR=${1:-"public/images"}

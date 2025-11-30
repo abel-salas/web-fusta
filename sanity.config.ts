@@ -6,8 +6,8 @@ import { visionTool } from '@sanity/vision'
 import { schemaTypes } from './sanity/schemas'
 
 export default defineConfig({
-  name: 'restaurant-gavina',
-  title: 'Restaurant Banys La Gavina',
+  name: 'restaurant-fusta',
+  title: 'Restaurant La Fusta',
 
   // Credenciales del proyecto desde variables de entorno
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || 'tkwezd48',

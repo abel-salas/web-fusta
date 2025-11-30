@@ -1,12 +1,10 @@
-# Restaurant Banys La Gavina - Website
+# Restaurant La Fusta - Website
 
-Modern multilingual restaurant website built with Next.js 15 and Sanity CMS for Restaurant Banys La Gavina in Calella de Palafrugell, Costa Brava.
+Modern multilingual restaurant website built with Next.js 15 and Sanity CMS for Restaurant La Fusta.
 
-## 🎉 Project Status: COMPLETED
+## 🎉 Project Status: IN DEVELOPMENT
 
-✅ **All migrations completed successfully**  
-✅ **100% content managed through Sanity CMS**  
-✅ **Zero hardcoded content**  
+✅ **Content managed through Sanity CMS**  
 ✅ **Build optimized and production-ready**
 
 🌍 **5 Languages**: Spanish, Catalan, English, German, Dutch
@@ -23,18 +21,18 @@ Modern multilingual restaurant website built with Next.js 15 and Sanity CMS for 
 
 ## 🗃️ Content Management
 
-All website content is now managed through **Sanity CMS**:
+Website content is managed through **Sanity CMS**:
 
-### Migrated Pages:
+### Available Pages:
 - ✅ **HOME** - Hero, About, Specialties, Location sections
-- ✅ **Reservations** - Contact forms and information
+- ✅ **Carta (Menu)** - Restaurant menu with categories
 - ✅ **Contact** - Business info and contact forms
-- ✅ **Celebrations** - Event types, capacity, packages
-- ✅ **Hours** - Operating hours and special schedules
+- ✅ **Historia (History)** - Restaurant history
+- ✅ **Legal Pages** - Privacy policy and legal information
 
 ### Content Structure:
-- 📄 **5 Content Types** for different page sections
-- � **Locale-based documents** (separate per language)
+- 📄 **Content Types** for different page sections
+- 🌐 **Locale-based documents** (separate per language)
 - 🔄 **Real-time updates** without deployments
 - 📝 **Rich content editing** through Sanity Studio
 
@@ -52,13 +50,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Project Structure
 
 ```
-web-gavina/
+web-fusta/
 ├── src/
 │   ├── app/
 │   │   ├── [locale]/          # Internationalized routes
+│   │   │   ├── page.tsx       # Home page
+│   │   │   ├── carta/         # Menu page
+│   │   │   ├── contacto/      # Contact page
+│   │   │   ├── historia/      # History page
+│   │   │   └── legal/         # Legal pages
 │   │   ├── components/        # Reusable components
 │   │   ├── lib/               # Utilities and data
 │   │   └── translations/      # Language files
+├── sanity/
+│   ├── schemas/               # Sanity content schemas
+│   └── queries.ts             # GROQ queries
 ├── public/                    # Static assets
 └── package.json
 ```

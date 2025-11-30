@@ -1,49 +1,49 @@
-// Configuración centralizada del SEO
+// Configuración centralizada del SEO para Restaurant La Fusta
 export const SEO_CONFIG = {
     site: {
-        name: 'Restaurant Banys La Gavina',
-        url: process.env.NEXT_PUBLIC_BASE_URL || 'https://www.banyslagavina.cat',
+        name: 'Restaurant La Fusta',
+        url: process.env.NEXT_PUBLIC_BASE_URL || 'https://www.lafusta.cat',
         defaultLocale: 'es',
         supportedLocales: ['es', 'en', 'ca', 'nl', 'de'],
-        fullName: 'Restaurant Banys La Gavina - Calella',
-        tagline: 'Desde 1958 frente al mar',
+        fullName: 'Restaurant La Fusta',
+        tagline: 'Cocina Mediterránea Auténtica',
     },
 
     social: {
-        twitter: '@banyslagavina',
-        instagram: 'banyslagavina',
-        facebook: 'GavinaCalella',
-        instagramUrl: 'https://www.instagram.com/banyslagavina?igsh=MXBzdHpoZjI2ZTlxNA==',
-        facebookUrl: 'https://www.facebook.com/GavinaCalella',
+        twitter: '@lafusta',
+        instagram: 'lafusta',
+        facebook: 'lafusta',
+        instagramUrl: 'https://www.instagram.com/lafusta',
+        facebookUrl: 'https://www.facebook.com/lafusta',
     },
 
     business: {
         type: 'Restaurant',
         cuisine: 'Mediterranean',
         priceRange: '€€',
-        phone: '+34 937 69 25 39',
-        mobile: '+34 695 349 307',
-        email: 'info@banyslagavina.cat',
+        phone: '+34 000 00 00 00',
+        mobile: '+34 000 00 00 00',
+        email: 'info@lafusta.cat',
         address: {
-            street: 'Paseo Manuel Puigvert s/n',
-            city: 'Calella',
+            street: 'Dirección por definir',
+            city: 'Ciudad',
             region: 'Catalunya',
-            postalCode: '08370',
+            postalCode: '00000',
             country: 'ES',
         },
         coordinates: {
-            latitude: '41.6141',
-            longitude: '2.6586',
+            latitude: '41.0000',
+            longitude: '2.0000',
         },
         openingHours: [
             'Mo-Su 09:00-23:30',
         ],
         rating: {
-            value: '4.6',
-            count: '230',
+            value: '4.5',
+            count: '100',
         },
-        established: '1958',
-        specialty: 'Paellas y mariscos frente al mar',
+        established: '2024',
+        specialty: 'Cocina mediterránea con especialidades del mar y de la montaña',
     },
 
     images: {

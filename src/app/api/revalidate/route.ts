@@ -14,42 +14,12 @@ async function revalidateAllPages() {
     '/ca',
     '/nl',
     '/de',
-    // Páginas de carta (antes menu)
+    // Páginas de carta
     '/es/carta',
     '/en/carta',
     '/ca/carta',
     '/nl/carta',
     '/de/carta',
-    // Páginas de arroces (nueva)
-    '/es/arroces',
-    '/en/arroces',
-    '/ca/arroces',
-    '/nl/arroces',
-    '/de/arroces',
-    // Páginas de especialidades
-    '/es/especialidades',
-    '/en/especialidades',
-    '/ca/especialidades',
-    '/nl/especialidades',
-    '/de/especialidades',
-    // Páginas de terraza-vista-mar (nueva)
-    '/es/terraza-vista-mar',
-    '/en/terraza-vista-mar',
-    '/ca/terraza-vista-mar',
-    '/nl/terraza-vista-mar',
-    '/de/terraza-vista-mar',
-    // Páginas de celebraciones
-    '/es/celebraciones',
-    '/en/celebraciones',
-    '/ca/celebraciones',
-    '/nl/celebraciones',
-    '/de/celebraciones',
-    // Páginas de reservas (nueva)
-    '/es/reservas',
-    '/en/reservas',
-    '/ca/reservas',
-    '/nl/reservas',
-    '/de/reservas',
     // Páginas de contacto
     '/es/contacto',
     '/en/contacto',

@@ -1,6 +1,6 @@
 # Scripts del Proyecto
 
-Este directorio contiene scripts de utilidad para el proyecto Restaurant Banys La Gavina.
+Este directorio contiene scripts de utilidad para el proyecto Restaurant La Fusta.
 
 ## Scripts Disponibles
 

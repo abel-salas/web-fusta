@@ -14,12 +14,6 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'www.banyslagavina.cat',
-        port: '',
-        pathname: '/wp-content/uploads/**',
-      },
-      {
         protocol: 'https',
         hostname: 'cdn.sanity.io',
         port: '',
