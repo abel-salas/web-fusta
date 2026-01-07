@@ -70,7 +70,7 @@ export default async function LocaleLayout({
             <div className="min-h-screen flex flex-col">
                 <HtmlLangUpdater locale={validLocale} />
                 <Navbar params={params} />
-                <main className="flex-1 pt-16">
+                <main className="flex-1">
                     {children}
                 </main>
                 <Footer params={params} />

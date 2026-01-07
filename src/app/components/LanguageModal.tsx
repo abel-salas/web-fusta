@@ -71,7 +71,7 @@ export default function LanguageModal({ currentLocale, onClose }: LanguageModalP
                 {/* Footer */}
                 <div className="mt-6 pt-4 border-t border-gray-200">
                     <p className="text-sm text-gray-500 text-center">
-                        Restaurant Banys La Gavina - Desde 1958
+                        Restaurant La Fusta
                     </p>
                 </div>
             </div>

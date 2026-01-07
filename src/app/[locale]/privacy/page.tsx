@@ -54,7 +54,7 @@ export default async function PrivacyPolicyPage({ params }: Props) {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-4">2. {privacy.sections.responsible.title}</h2>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <p><strong>{privacy.sections.responsible.denomination}</strong> Banys La Gavina</p>
+              <p><strong>{privacy.sections.responsible.denomination}</strong> La Fusta</p>
               <p><strong>{privacy.sections.responsible.address}</strong> {CONTACT_INFO.address}</p>
               <p><strong>{privacy.sections.responsible.phone}</strong> {CONTACT_INFO.phone}</p>
               <p><strong>{privacy.sections.responsible.email}</strong> {CONTACT_INFO.email}</p>

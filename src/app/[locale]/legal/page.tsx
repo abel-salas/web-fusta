@@ -12,8 +12,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const dict = await getDictionary(locale);
   
   return {
-    title: dict.legal?.metaTitle || `Legal Notice - Restaurant Banys La Gavina`,
-    description: dict.legal?.metaDescription || 'Legal notice of Restaurant Banys La Gavina website',
+    title: dict.legal?.metaTitle || `Legal Notice - Restaurant La Fusta`,
+    description: dict.legal?.metaDescription || 'Legal notice of Restaurant La Fusta website',
     robots: 'index, follow',
     alternates: {
       canonical: `https://www.banyslagavina.cat/${locale}/legal`,
@@ -63,7 +63,7 @@ export default async function LegalNoticePage({ params }: Props) {
               {dict.legal.sections.owner.title}
             </h2>
             <div className="space-y-2 text-gray-700">
-              <p><strong>{dict.legal.sections.owner.denomination}</strong> Restaurant Banys La Gavina</p>
+              <p><strong>{dict.legal.sections.owner.denomination}</strong> Restaurant La Fusta</p>
               <p><strong>{dict.legal.sections.owner.address}</strong> {CONTACT_INFO.address}</p>
               <p><strong>{dict.legal.sections.owner.phone}</strong> {CONTACT_INFO.phone}</p>
               <p><strong>{dict.legal.sections.owner.email}</strong> {CONTACT_INFO.email}</p>

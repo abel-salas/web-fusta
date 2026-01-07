@@ -38,30 +38,27 @@ export default function MobileNavbar({ navItems, homeHref }: MobileNavbarProps) 
   return (
     <>
       {/* Mobile Navigation Bar */}
-      <nav className="md:hidden fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-amber-900 via-amber-800 to-amber-900 shadow-lg border-b-4 border-amber-950 transition-all duration-300">
-        {/* Textura de madera sutil */}
-        <div className="absolute inset-0 opacity-10" style={{
-          backgroundImage: 'repeating-linear-gradient(90deg, #654321 0px, #8B4513 2px, #654321 4px)'
-        }} />
-        
+      <nav className="md:hidden fixed top-0 left-0 right-0 z-50 bg-neutral-900 shadow-lg transition-all duration-300">
+        <div className="absolute inset-0 opacity-10" />
+
         <div className="px-4 relative z-10">
           <div className="flex justify-between items-center h-16">
             {/* Logo/Brand */}
             <div className="flex-shrink-0">
               <Link
                 href={homeHref as Route}
-                className="text-xl font-bold text-amber-50 hover:text-amber-200 transition-colors"
+                className={`text-2xl md:text-4xl tracking-tight font-bold text-white transition-all duration-300`}
                 onClick={closeMenu}
               >
-                <LogoText className="w-logo-header-mobile" />
+                LA FUSTA
               </Link>
             </div>
 
             {/* Hamburger Button - Siempre visible encima del modal */}
             <button
               onClick={toggleMenu}
-              className={`relative z-50 inline-flex items-center justify-center p-2 rounded-none text-amber-50 hover:text-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-600 focus:ring-inset transition-all duration-300 border-2 ${isMenuOpen ? 'bg-amber-950/50 border-amber-700 hover:bg-amber-950/70' : 'border-transparent hover:bg-amber-950/30'
-                }`}
+              className={`relative z-50 inline-flex items-center justify-center p-2 rounded-none text-white focus:outline-none transition-all duration-300
+                `}
               aria-expanded={isMenuOpen}
               aria-label={isMenuOpen ? "Cerrar menú de navegación" : "Abrir menú de navegación"}
             >
@@ -94,17 +91,11 @@ export default function MobileNavbar({ navItems, homeHref }: MobileNavbarProps) 
         >
           {/* Modal Content */}
           <div
-            className="fixed top-0 right-0 h-full w-80 max-w-sm bg-gradient-to-b from-amber-900 to-amber-950 shadow-2xl transform transition-transform duration-300 ease-in-out border-l-4 border-amber-700"
+            className="fixed top-0 right-0 h-full w-80 max-w-sm bg-neutral-900 shadow-2xl transform transition-transform duration-300 ease-in-out"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Textura de madera */}
-            <div className="absolute inset-0 opacity-5" style={{
-              backgroundImage: 'repeating-linear-gradient(0deg, #654321 0px, #8B4513 3px, #654321 6px)'
-            }} />
-            
-            {/* Modal Header - Sin botón X, solo título */}
-            <div className="p-4 border-b-2 border-amber-800 relative z-10">
-              <h2 className="text-lg font-semibold text-amber-50 uppercase tracking-widest font-serif">Menú</h2>
+            <div className="p-4 relative z-10">
+              <h2 className="text-lg font-semibold uppercase tracking-widest">Menú</h2>
             </div>
 
             {/* Modal Body */}
@@ -117,7 +108,7 @@ export default function MobileNavbar({ navItems, homeHref }: MobileNavbarProps) 
                       <Link
                         href={item.href as Route}
                         onClick={closeMenu}
-                        className="block py-3 px-4 text-lg text-amber-50 hover:text-amber-200 hover:bg-amber-950/50 rounded-none transition-all duration-200 font-semibold border-2 border-transparent hover:border-amber-700 uppercase tracking-wide"
+                        className="block py-3 px-4 text-white text-lg rounded-none transition-all duration-200 font-semibold border-transparent uppercase tracking-wide"
                       >
                         {item.label}
                       </Link>

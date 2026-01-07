@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Restaurante Gavina',
-    default: 'Restaurante Gavina - Cocina Mediterránea Auténtica',
+    template: '%s | Restaurante La Fusta',
+    default: 'Restaurante La Fusta - Cocina Mediterránea Auténtica',
   },
-  description: "Descubre la auténtica cocina mediterránea en Restaurante Gavina. Platos caseros, ingredientes frescos y un ambiente acogedor.",
+  description: "Descubre la auténtica cocina mediterránea en Restaurante La Fusta. Platos caseros, ingredientes frescos y un ambiente acogedor.",
   metadataBase: new URL(SEO_CONFIG.site.url),
   alternates: {
     canonical: '/',
@@ -47,7 +47,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className="antialiased">
         {children}
         <Analytics />
         <SpeedInsights />

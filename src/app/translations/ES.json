@@ -26,7 +26,7 @@
         "history": "Historia"
     },
     "home": {
-        "title": "Banys La Gavina",
+        "title": "La Fusta",
         "subtitle": "Desde 1958 en primera línea de mar",
         "description": "Situados en la Playa de Calella, somos especialistas en arroces, mariscos, pescado fresco y carnes selectas. Un marco incomparable frente al mar Mediterráneo.",
         "metaTitle": "Restaurante Banys La Gavina - Desde 1958 en Calella | Arroces y Mariscos",
@@ -390,8 +390,8 @@
     },
     "legal": {
         "title": "Aviso Legal",
-        "metaTitle": "Aviso Legal - Restaurante Banys La Gavina",
-        "metaDescription": "Aviso legal e información general del Restaurante Banys La Gavina. Cumplimiento LSSI y servicios de la sociedad de la información.",
+        "metaTitle": "Aviso Legal - Restaurante La Fusta",
+        "metaDescription": "Aviso legal e información general del Restaurante La Fusta. Cumplimiento LSSI y servicios de la sociedad de la información.",
         "sections": {
             "general": {
                 "title": "Información General",
@@ -418,11 +418,11 @@
             },
             "liability": {
                 "title": "Responsabilidad",
-                "content": "El Restaurante Banys La Gavina se esfuerza por asegurar que la información contenida en este sitio web sea correcta y esté actualizada, sin embargo, no asume responsabilidad alguna por posibles errores, omisiones o cambios en la información proporcionada."
+                "content": "El Restaurante La Fusta se esfuerza por asegurar que la información contenida en este sitio web sea correcta y esté actualizada, sin embargo, no asume responsabilidad alguna por posibles errores, omisiones o cambios en la información proporcionada."
             },
             "external_links": {
                 "title": "Enlaces Externos",
-                "content": "Este sitio web puede contener enlaces a sitios web externos. El Restaurante Banys La Gavina no se hace responsable del contenido o las prácticas de privacidad de estos sitios web."
+                "content": "Este sitio web puede contener enlaces a sitios web externos. El Restaurante La Fusta no se hace responsable del contenido o las prácticas de privacidad de estos sitios web."
             },
             "applicable_law": {
                 "title": "Ley Aplicable",
@@ -438,13 +438,12 @@
         "date": "8 de octubre de 2025"
     },
     "footer": {
-        "description": "Restaurante Banys La Gavina, tradición familiar desde 1958 en primera línea de mar en Calella.",
+        "description": "Restaurante La Fusta",
         "quick_links": "Enlaces Rápidos",
         "contact": {
             "title": "Contacto"
         },
-        "language_selector": "Idioma",
         "privacy_policy": "Política de Privacidad",
-        "copyright": "© 2025 Restaurante Banys La Gavina. Todos los derechos reservados."
+        "copyright": "© 2025 Restaurante La Fusta. Todos los derechos reservados."
     }
 }

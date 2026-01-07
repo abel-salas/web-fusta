@@ -100,7 +100,7 @@ export default async function MenuPage({ params }: { params: Promise<{ locale: s
           __html: JSON.stringify(generateMenuSchema(validLocale)),
         }}
       />
-      <MenuContent dict={dict} menuData={menuDataByCategory} menuContent={menuContentInfo} />
+      <MenuContent dict={dict} menuData={menuDataByCategory} />
     </>
   );
 }
