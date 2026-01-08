@@ -22,7 +22,7 @@ export default function Navbar({ params }: { params: Promise<{ locale: string }>
     // Detectar si estamos en la home principal
     const checkHomePage = () => {
       const path = window.location.pathname;
-      setIsHomePage(path === '/' || path.match(/^\/[a-z]{2}$/));
+      setIsHomePage(path === '/' || !!path.match(/^\/[a-z]{2}$/));
     };
     checkHomePage();
     window.addEventListener('popstate', checkHomePage);
@@ -31,7 +31,7 @@ export default function Navbar({ params }: { params: Promise<{ locale: string }>
   
   const [locale, setLocale] = useState("es");
   const [dict, setDict] = useState({ nav: {}, footer: {} });
-  const [href, setHref] = useState((path: string) => path);
+  const [href, setHref] = useState<(path: string) => string>(() => (path: string) => path);
   useEffect(() => {
     params.then(({ locale }) => {
       setLocale(locale);
