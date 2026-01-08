@@ -5,10 +5,16 @@ export function localizedHref(locale: string, path: string): string {
 
 // Helper para obtener traducciones (server-side)
 import { getDictionary } from './getDictionary';
+import type { Dictionary } from './dictionary.models';
 
-export function getLocalizedData(locale: string) {
+export function getLocalizedData(locale: string): {
+    dict: Dictionary;
+    href: (path: string) => string;
+    locale: string;
+} {
+    const dictObj = getDictionary(locale);
     return {
-        dict: getDictionary(locale),
+        dict: dictObj.fusta,
         href: (path: string) => localizedHref(locale, path),
         locale
     };
@@ -18,7 +24,7 @@ export function getLocalizedData(locale: string) {
 export async function getLocalizedDataWithSanity(locale: string) {
     const fallbackDict = getDictionary(locale);
     // const dict = await getSanityDict(locale, fallbackDict);
-    
+
     return {
         dict: fallbackDict,
         href: (path: string) => localizedHref(locale, path),

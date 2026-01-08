@@ -1,8 +1,0 @@
-{
-  "name": "sanity-studio-start",
-  "version": "1.0.0",
-  "scripts": {
-    "studio": "sanity dev --port 3333",
-    "studio-no-check": "SANITY_STUDIO_AUTO_UPDATES=false sanity dev --port 3333 --no-minify"
-  }
-}

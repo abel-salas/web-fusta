@@ -1,5 +1,4 @@
 import type { Metadata, Route } from 'next';
-import { getDictionary } from "../lib/getDictionary";
 import { generatePageMetadata, getValidLocale } from '@/seo';
 import SectionSlider from './components/SectionSlider';
 import { getLocalizedData } from '../lib/localization';
@@ -8,6 +7,7 @@ import Link from 'next/link';
 import ParallaxSection from '../components/ParallaxSection';
 import ImageTextSection from '../components/ImageTextSection';
 import ParallaxText from '../components/ParallaxText';
+import { SectionImageText, SectionMain, SectionThree, SectionTwo } from '../lib/dictionary.models';
 
 export async function generateMetadata({
     params
@@ -28,45 +28,13 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
     const { locale } = await params;
     const { dict, href } = getLocalizedData(locale);
 
-    const sectionMain = {
-        "image": "/main.jpg",
-        "alt": "Restaurante - Experiencia Gastronómica",
-        "ctaHref": "/carta",
-        "title": "LA FUSTA",
-        "subtitle": "El Sabor de Siempre, en el Corazón de Calella",
-        "ctaText": "Ver nuestra carta"
-    }
-
-    /* Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico.  */
-
-    const sectionTwo = {
-        "tite": "Nuestros Platos: Un Clásico que Nunca Pasa de Moda",
-        "subtitle": "Descubre una selección de sabores que nuestros clientes repiten una y otra vez.",
-        "images": [
-            "/pizza.jpg",
-            "/pasta.jpg",
-            "/salad.jpg",
-            "/600x400_1.svg",
-            "/600x400_2.svg",
-            "/600x400_3.svg",
-        ]
-    }
-
-    const sectionImageText = {
-        "image": "/meat.jpg",
-        "alt": "Nuestra especialidad",
-        "title": "Tradición con Toque Moderno",
-        "subtitle": "Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico.",
-        "description": "En La Fusta mantenemos la esencia de siempre con propuestas actualizadas que enamoran a locales y visitantes. Desde las tapas más clásicas hasta creaciones que sorprenden, cada plato refleja la pasión de nuestros cocineros por la buena cocina y el sabor auténtico."
-    }
-
+    const sectionMain = dict?.home?.sectionMain as SectionMain;
+    const sectionTwo = dict?.home?.sectionTwo as SectionTwo;
+    const sectionImageText = dict?.home?.sectionImageText as SectionImageText;
     const sectionThree = {
-        "title": "Descubre la experiencia",
-        "description": "Sumérgete en un ambiente único donde la gastronomía y el entorno se fusionan para ofrecerte momentos inolvidables.",
-        "image": "/local.jpg",
-        "ctaText": "Contáctanos",
-        "ctaHref": href("/contacto")
-    }
+        ...dict?.home?.sectionThree,
+        "ctaHref": href(dict.home.sectionThree.ctaHref)
+    } as SectionThree;
 
     return (
         <>
@@ -94,12 +62,12 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
             </section>
 
             {/* Texto con parallax inverso */}
-            <ParallaxText text="Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico." />
+            <ParallaxText text={sectionTwo.parallaxText} />
 
             {/* Sección 2: título + slider */}
-            <section className="section-2 w-full flex flex-col md:flex-row items-center py-24 gap-8">
+            <section className="section-2 w-full flex flex-col md:flex-row items-center justify-center py-24 gap-8">
                 <div className="w-full md:w-[30%] flex flex-col justify-center mb-8 md:mb-0 px-8">
-                    <h2 className="text-4xl font-bold text-black mb-6">{sectionTwo.tite}</h2>
+                    <h2 className="text-4xl font-bold text-black mb-6">{sectionTwo.title}</h2>
                     <p className="text-lg text-gray-600">{sectionTwo.subtitle}</p>
                 </div>
                 <div className="w-full md:w-[70%] flex items-center">

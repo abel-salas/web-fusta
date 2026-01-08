@@ -1,395 +1,253 @@
 {
-    "contact_section": {
-        "title": "Book Your Experience",
-        "subtitle": "Ready to enjoy a unique gastronomic experience? Book your table and let us surprise you.",
-        "cta": "Book a Table"
-    },
-    "contact_info": {
-        "phone": "937 69 25 39",
-        "mobile": "695 349 307",
-        "address": "Paseo Manuel Puigvert s/n, Calella, Barcelona",
-        "location": "Platja Gran de Calella, facing the Renfe Station",
-        "parking": "Two free parking areas",
-        "facebook": "Facebook",
-        "instagram": "Instagram"
-    },
-    "nav": {
-        "home": "Home",
-        "menu": "Menu",
-        "terraza": "Terrace",
-        "paellas": "Paellas",
-        "history": "History",
-        "celebrations": "Celebrations",
-        "reservas": "Bookings",
-        "contacto": "Contact",
-        "gallery": "Gallery"
-    },
-    "home": {
-        "title": "Banys La Gavina",
-        "subtitle": "Since 1958 on the seafront",
-        "description": "Located on Calella Beach, we specialize in rice dishes, seafood, fresh fish and select meats. An incomparable setting facing the Mediterranean Sea.",
-        "metaTitle": "Restaurant Banys La Gavina - Since 1958 in Calella | Rice dishes and Seafood",
-        "metaDescription": "Traditional seafront restaurant in Calella since 1958. Specialists in rice dishes, seafood, fresh fish and select meats. Sea view terrace and free parking.",
-        "cta": "View Menu"
-    },
-    "menu": {
-        "title": "Our Menu",
-        "subtitle": "Traditional Catalan cuisine with the finest sea and land products",
-        "description": "Our menu combines Mediterranean culinary tradition with the finest fresh products from the Costa Brava. Since 1958 we have been preparing authentic Valencian paellas, seafood fideuá, fresh fish from Calella market and select grilled meats. Each dish reflects our passion for traditional Catalan cuisine, using Blanes seafood, seasonal vegetables and the finest Catalan meats, all served on our privileged terrace facing the Mediterranean Sea.",
-        "metaTitle": "Menu - Gavina Restaurant | Traditional Mediterranean Dishes",
-        "metaDescription": "Explore our Mediterranean cuisine menu: paellas, fresh seafood, grilled meats and homemade desserts. Premium quality ingredients.",
-        "categoryNames": {
-            "starters": "Starters",
-            "salads": "To nibble",
-            "rice": "Rice Dishes",
-            "meat": "Meat",
-            "fish": "Fish",
-            "desserts": "Desserts",
-            "drinks": "Drinks"
-        },
-        "allergens": {
-            "label": "Allergens:",
-            "legend": "Allergens Legend",
-            "types": {
-                "gluten": "Gluten",
-                "shellfish": "Shellfish",
-                "fish": "Fish",
-                "dairy": "Dairy",
-                "eggs": "Eggs",
-                "nuts": "Nuts",
-                "soy": "Soy",
-                "celery": "Celery",
-                "mustard": "Mustard",
-                "sesame": "Sesame",
-                "sulfites": "Sulfites"
+    "fusta": {
+        "home": {
+            "sectionMain": {
+                "image": "/main.jpg",
+                "alt": "Restaurante - Experiencia Gastronómica",
+                "ctaHref": "/carta",
+                "title": "LA FUSTA",
+                "subtitle": "El Sabor de Siempre, en el Corazón de Calella",
+                "ctaText": "Ver nuestra carta"
+            },
+            "sectionTwo": {
+                "title": "Nuestros Platos: Un Clásico que Nunca Pasa de Moda",
+                "subtitle": "Descubre una selección de sabores que nuestros clientes repiten una y otra vez.",
+                "images": [
+                    "/pizza.jpg",
+                    "/pasta.jpg",
+                    "/salad.jpg",
+                    "/600x400_1.svg",
+                    "/600x400_2.svg",
+                    "/600x400_3.svg"
+                ],
+                "parallaxText": "Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico."
+            },
+            "sectionImageText": {
+                "image": "/meat.jpg",
+                "alt": "Nuestra especialidad",
+                "title": "Tradición con Toque Moderno",
+                "subtitle": "Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico.",
+                "description": "En La Fusta mantenemos la esencia de siempre con propuestas actualizadas que enamoran a locales y visitantes. Desde las tapas más clásicas hasta creaciones que sorprenden, cada plato refleja la pasión de nuestros cocineros por la buena cocina y el sabor auténtico."
+            },
+            "sectionThree": {
+                "title": "Descubre la experiencia",
+                "description": "Sumérgete en un ambiente único donde la gastronomía y el entorno se fusionan para ofrecerte momentos inolvidables.",
+                "image": "/local.jpg",
+                "ctaText": "Contáctanos",
+                "ctaHref": "/contacto"
             }
         },
-        "view_full_menu": "View Full Menu",
-        "recommended": "Recommended"
-    },
-    "contact": {
-        "title": "Contact",
-        "subtitle": "Seafront restaurant in Calella - Reservations and inquiries",
-        "description": "Contact us for reservations, events or inquiries. Restaurant Banys La Gavina, since 1958 on the seafront in Calella, Barcelona.",
-        "metaTitle": "Contact - Gavina Restaurant | Reservations and Inquiries",
-        "metaDescription": "Contact Gavina Restaurant for reservations, inquiries or information. We serve you with the best disposition.",
-        "info_section": "Contact Information",
-        "form_section": "Send us a Message",
-        "fields": {
-            "address": "Address",
-            "phone": "Phone",
-            "mobile": "Mobile",
-            "schedule": "Schedule",
-            "parking": "Free parking",
-            "parking_description": "We have two free public parking areas in Calella very close to the restaurant",
-            "follow_us": "Follow us on social media",
-            "name": "Name",
-            "email": "Email",
-            "message": "Message",
-            "send_button": "Send Message"
+        "nav": {
+            "home": "Inicio",
+            "menu": "Carta",
+            "contact": "Contacto"
         },
-        "whatsapp": {
-            "title": "WhatsApp Reservations",
-            "description": "You can also book your table directly via WhatsApp",
-            "button": "Book via WhatsApp"
-        }
-    },
-    "about": {
-        "features": [
-            {
-                "icon": "eco",
-                "title": "Fresh Mediterranean Products",
-                "description": "Seafood from Blanes, fish from Calella market and local vegetables selected daily to guarantee maximum quality"
-            },
-            {
-                "icon": "restaurant",
-                "title": "Traditional Catalan Cuisine",
-                "description": "Over 65 years perfecting Valencian paellas, seafood fideuá and Mediterranean specialties with ancestral techniques"
-            },
-            {
-                "icon": "home",
-                "title": "Family Restaurant since 1958",
-                "description": "Three generations maintaining Catalan culinary tradition with authentic recipes passed down through the family"
-            },
-            {
-                "icon": "waves",
-                "title": "Calella Seafront Location",
-                "description": "Terrace facing Platja Gran with panoramic Mediterranean views and unique atmosphere on the Costa Brava"
-            }
-        ]
-    },
-    "history": {
-        "title": "Our History",
-        "subtitle": "A Calella emblem since 1958",
-        "sections": {
-            "origin": {
-                "title": "The Beginning (1958)",
-                "content": "Restaurant Banys La Gavina opened its doors in 1958, during the height of Calella's tourism development. From the beginning, it was strategically located on Calella's Platja Gran, facing the Renfe Station, becoming the perfect meeting point for locals and visitors."
-            },
-            "calella_context": {
-                "title": "Calella: From Fishing Village to Tourist Destination",
-                "content": "During the 60s and 70s, Calella experienced a radical transformation. From being a traditional fishing and textile village, it became one of the most important tourist destinations on the Costa del Maresme. This tourism boom, especially from Central European tourism, made Calella known as 'Calella dels Alemanys' (Calella of the Germans), tripling its population during high season."
-            },
-            "golden_era": {
-                "title": "The Golden Age of Tourism",
-                "content": "Banys La Gavina was witness and protagonist of this golden age. With its privileged location facing the sea and next to the train station, the restaurant became a must-stop for tourists arriving in Calella seeking sun, beach and authentic Mediterranean cuisine."
-            },
-            "tradition": {
-                "title": "Over 65 Years of Tradition",
-                "content": "Throughout more than six decades, the restaurant has maintained its family essence and commitment to quality. It has witnessed Calella's evolution, from its beginnings as a tourist destination to becoming a cosmopolitan city that receives visitors from all over Europe."
-            },
-            "calella_cinema": {
-                "title": "Calella: City of Cinema",
-                "content": "Calella has also been the setting for numerous film and television productions. Since 2010, it has been part of Catalunya Film Commission, and has its own Calella Film Office. The city has served as a 'film set city' for productions that wanted to capture the essence of Catalonia's Mediterranean coast."
-            },
-            "present": {
-                "title": "The Restaurant Today",
-                "content": "Currently, Restaurant Banys La Gavina continues to be a gastronomic reference in Calella. It maintains its traditional specialties in rice dishes, seafood and fresh fish, while adapting to modern times while preserving its Mediterranean and family soul."
-            }
+        "footer": {
+            "title": "Enlaces",
+            "subtitle": "La Fusta | Restaurante en Calella",
+            "description": "Tapas tradicionales, embutidos y cenas con encanto en un ambiente rústico y auténtico. Más de 40 años ofreciendo gastronomía mediterránea, vinos y cervezas en el corazón de Calella.",
+            "privacy_policy": "Política de Privacidad",
+            "copyright": "© 2025 Restaurante La Fusta. Todos los derechos reservados."
         },
-        "timeline": [
-            {
-                "year": "1958",
-                "event": "Opening of Restaurant Banys La Gavina"
+        "menu": {
+            "title": "Nuestra Carta",
+            "categoryNames": {
+                "starters": "Entrantes",
+                "salads": "Para Picar",
+                "rice": "Arroces",
+                "meat": "Carnes",
+                "fish": "Pescados",
+                "desserts": "Postres",
+                "drinks": "Bebidas"
             },
-            {
-                "year": "1960s-70s",
-                "event": "Calella's tourism boom - 'Calella dels Alemanys'"
-            },
-            {
-                "year": "1970s",
-                "event": "Consolidation as a local gastronomic reference"
-            },
-            {
-                "year": "2010",
-                "event": "Calella joins Catalunya Film Commission"
-            },
-            {
-                "year": "2024",
-                "event": "Over 65 years serving the best Mediterranean cuisine"
-            }
-        ],
-        "heritage": {
-            "title": "Heritage and Tradition",
-            "items": [
-                {
-                    "title": "Historic Location",
-                    "description": "Located on the emblematic Paseo Manuel Puigvert, facing Platja Gran, since 1958"
-                },
-                {
-                    "title": "Traditional Recipes",
-                    "description": "We preserve the original recipes of our rice dishes and seafood specialties"
-                },
-                {
-                    "title": "Witness to History",
-                    "description": "We have witnessed the tourism development of Calella and the Costa del Maresme"
-                },
-                {
-                    "title": "Generations of Customers",
-                    "description": "Entire families have shared special moments at our tables for decades"
+            "allergens": {
+                "label": "Alérgenos:",
+                "legend": "Leyenda de Alérgenos",
+                "types": {
+                    "gluten": "Gluten",
+                    "shellfish": "Mariscos",
+                    "fish": "Pescado",
+                    "dairy": "Lácteos",
+                    "eggs": "Huevos",
+                    "nuts": "Frutos secos",
+                    "soy": "Soja",
+                    "celery": "Apio",
+                    "mustard": "Mostaza",
+                    "sesame": "Sésamo",
+                    "sulfites": "Sulfitos"
                 }
-            ]
-        },
-        "cta": {
-            "title": "Come Be Part of Our History",
-            "subtitle": "More than 65 years of gastronomic tradition await you on the seafront",
-            "menu_button": "View Our Menu",
-            "contact_button": "Book a Table"
-        }
-    },
-    "sections": {
-        "about": {
-            "title": "Our History",
-            "titleSeo": "Restaurant Banys La Gavina has been a gastronomic landmark in Calella for over 65 years.",
-            "subtitle": "Family tradition since 1958 on the seafront",
-            "description": "Located at Platja Gran facing Renfe Station, we specialize in authentic Valencian paellas, fresh Costa Brava seafood, market fish and grilled meats. Our traditional Catalan Mediterranean cuisine combines top quality local products with ancestral techniques, offering a unique gastronomic experience with panoramic Mediterranean sea views."
-        },
-        "specialties": {
-            "title": "Our Specialties",
-            "subtitle": "The best of the Mediterranean Sea and select meats",
-            "items": [
-                {
-                    "name": "Rice Dishes",
-                    "description": "Seafood paella, black rice, special paella with lobster and fideuà",
-                    "price": "____"
-                },
-                {
-                    "name": "Seafood",
-                    "description": "Blanes prawns, langoustines, mussels marinera and steamed",
-                    "price": "____"
-                },
-                {
-                    "name": "Fresh Fish",
-                    "description": "Daily selection of fresh Mediterranean fish",
-                    "price": "____"
-                },
-                {
-                    "name": "Select Meats",
-                    "description": "Entrecote, sirloin, lamb chops and grilled specialties",
-                    "price": "____"
-                }
-            ]
-        },
-        "location": {
-            "title": "Privileged Location in Calella",
-            "subtitle": "Mediterranean seafront location",
-            "description": "Restaurant Banys La Gavina is situated at Platja Gran de Calella, on the seafront with panoramic Mediterranean views. 800m from Calella RENFE Station and with free parking nearby, we offer easy access for both Barcelona tourists and locals. Our seafront terrace is the perfect setting to enjoy Valencian paellas, fresh Costa Brava seafood and market fish in a unique Mediterranean atmosphere."
-        }
-    },
-    "privacy": {
-        "title": "Privacy Policy",
-        "metaTitle": "Privacy Policy - Restaurant Banys La Gavina",
-        "metaDescription": "Privacy policy of Restaurant Banys La Gavina. No cookies, GDPR compliance and personal data protection.",
-        "sections": {
-            "general": {
-                "title": "General Information",
-                "content": "In compliance with current regulations on personal data protection, Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR) and Organic Law 3/2018, of 5 December, on Personal Data Protection and guarantee of digital rights (LOPD-GDD), we inform you about the processing of your personal data."
             },
-            "responsible": {
-                "title": "Data Controller",
-                "denomination": "Business name:",
-                "address": "Address:",
-                "phone": "Phone:",
-                "email": "Email:"
-            },
-            "data_collected": {
-                "title": "Data We Collect",
-                "intro": "The personal data we may collect includes:",
-                "items": [
-                    "Contact details (name, phone, email) when you contact us for bookings or inquiries",
-                    "Booking information (date, time, number of diners, dietary preferences)",
-                    "Basic browsing data (IP address, browser type, pages visited)"
-                ]
-            },
-            "purpose": {
-                "title": "Purpose of Processing",
-                "intro": "Your personal data will be processed for the following purposes:",
-                "items": [
-                    "Management of bookings and restaurant services",
-                    "Customer service and query resolution",
-                    "Communications related to our services",
-                    "Compliance with legal obligations",
-                    "Improvement of our services and user experience"
-                ]
-            },
-            "legal_basis": {
-                "title": "Legal Basis",
-                "intro": "The processing of your data is based on:",
-                "contractual": "Contractual performance: For the provision of restaurant services and booking management",
-                "consent": "Consent: For promotional communications (when applicable)",
-                "legitimate": "Legitimate interest: For the improvement of our services",
-                "legal": "Legal compliance: To comply with tax and accounting obligations"
-            },
-            "retention": {
-                "title": "Data Retention",
-                "content": "Your personal data will be kept for the time necessary to fulfill the purposes for which they were collected and, in any case, for the legally established periods. Booking data will be kept for 6 years to comply with tax obligations."
-            },
-            "recipients": {
-                "title": "Data Recipients",
-                "intro": "Your data will not be transferred to third parties, except legal obligation. They may only be communicated to:",
-                "items": [
-                    "Public administrations when legally required",
-                    "Technology service providers under strict confidentiality conditions"
-                ]
-            },
-            "rights": {
-                "title": "Your Rights",
-                "intro": "You have the right to:",
-                "access": "Access: Know what data we have about you",
-                "rectification": "Rectification: Correct inaccurate or incomplete data",
-                "erasure": "Erasure: Request deletion of your data",
-                "restriction": "Restriction: Restrict the processing of your data",
-                "portability": "Portability: Receive your data in structured format",
-                "objection": "Objection: Object to the processing of your data",
-                "exercise": "To exercise these rights, you can contact us at info@banyslagavina.cat or at the postal address indicated above."
-            },
-            "authority": {
-                "title": "Supervisory Authority",
-                "content": "If you consider that the processing of your data does not comply with the regulations, you may file a complaint with the Spanish Data Protection Agency (AEPD) through its electronic headquarters (www.aepd.es) or at its postal address: C/ Jorge Juan, 6, 28001 Madrid."
-            },
-            "cookies": {
-                "title": "Cookie Information",
-                "important": "IMPORTANT:",
-                "no_cookies": "This website does NOT use cookies of any kind. We do not install cookies on your device, we do not track your browsing activity and we do not collect data through third-party cookies. Therefore, your consent for the use of cookies is not necessary.",
-                "basic_data": "Only basic browsing data (such as your IP address) that is necessary for the technical operation of the website is processed and is automatically deleted when you close your browsing session."
-            },
-            "security": {
-                "title": "Security",
-                "content": "We have implemented appropriate technical and organizational security measures to protect your personal data against unauthorized access, alteration, disclosure or accidental destruction."
-            },
-            "modifications": {
-                "title": "Modifications",
-                "content": "We reserve the right to modify this Privacy Policy. Any changes will be published on this page with the date of last update."
+            "section": {
+                "image": "/wine.jpg",
+                "alt": "Vino y tapas en La Fusta Calella",
+                "title": "Nuestra Carta",
+                "subtitle": "Tapas auténticas en el corazón de Calella"
             }
         },
-        "last_updated": "Last updated:",
-        "date": "October 8, 2025"
-    },
-    "legal": {
-        "title": "Legal Notice",
-        "metaTitle": "Legal Notice - Restaurant Banys La Gavina",
-        "metaDescription": "Legal notice and general information of Restaurant Banys La Gavina. LSSI compliance and information society services.",
-        "sections": {
-            "general": {
-                "title": "General Information",
-                "content": "In compliance with Law 34/2002, of July 11, on Information Society Services and Electronic Commerce, the following legal aspects are reported:"
-            },
-            "owner": {
-                "title": "Owner Information",
-                "denomination": "Company name:",
-                "address": "Address:",
-                "phone": "Phone:",
-                "email": "Email:"
-            },
-            "purpose": {
-                "title": "Purpose",
-                "content": "This website aims to present information about Restaurant Banys La Gavina and its services, as well as to provide a contact channel for reservations and inquiries."
-            },
-            "data_protection": {
-                "title": "Data Protection",
-                "content": "The processing of personal data is carried out in accordance with our Privacy Policy and the current provisions of GDPR and LOPD-GDD."
-            },
-            "intellectual_property": {
-                "title": "Intellectual Property",
-                "content": "All contents of this website (texts, images, graphics, logo, button icons, audio and video files and their selection and arrangement) are property of Restaurant Banys La Gavina or are used with due authorization and are protected by copyright laws and other intellectual property protection laws."
-            },
-            "liability": {
-                "title": "Liability",
-                "content": "Restaurant Banys La Gavina strives to ensure that the information contained on this website is correct and up to date, however, it assumes no responsibility for possible errors, omissions or changes in the information provided."
-            },
-            "external_links": {
-                "title": "External Links",
-                "content": "This website may contain links to external websites. Restaurant Banys La Gavina is not responsible for the content or privacy practices of these websites."
-            },
-            "applicable_law": {
-                "title": "Applicable Law",
-                "content": "This legal notice is governed by Spanish legislation. For any controversy that may arise from the use of this website, the parties submit to the Courts of Barcelona."
-            },
-            "no_cookies": {
-                "title": "Cookie-Free Website",
-                "important": "IMPORTANT:",
-                "content": "This website does NOT use cookies of any kind. We do not install tracking, analytics or third-party cookies on your device. Therefore, your consent for the use of cookies is not required and you will not see cookie banners or similar notices. We fully respect your privacy and only collect the essential data necessary to provide our services."
-            }
-        },
-        "last_updated": "Last updated:",
-        "date": "October 8, 2025"
-    },
-    "common": {
-        "cta": {
-            "reserve_now": "Book Now",
-            "more_info": "More Information",
-            "whatsapp_reserve": "Reserve via WhatsApp",
-            "contact": "Contact"
-        }
-    },
-    "footer": {
-        "description": "Restaurant Banys La Gavina, family tradition since 1958 on the seafront in Calella.",
-        "quick_links": "Quick Links",
         "contact": {
-            "title": "Contact"
+            "image": "/location.jpg",
+            "alt": "Ubicación La Fusta Calella",
+            "title": "Contacto",
+            "subtitle": "¿Tienes dudas o quieres reservar? ¡Escríbenos!",
+            "contact": {
+                "title": "Información de Contacto",
+                "subtitle": "Estamos aquí para ayudarte. Ya sea que tengas preguntas sobre nuestro menú, horarios o cualquier otra consulta, no dudes en ponerte en contacto con nosotros.",
+                "description": "Puedes visitarnos en nuestro restaurante en el corazón de Calella, llamarnos por teléfono o enviarnos un correo electrónico. ¡Esperamos saber de ti pronto!"
+            },
+            "form": {
+                "title": "Envíanos un Mensaje",
+                "subtitle": "Tu opinión es importante para nosotros. Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
+                "description": "Ya sea para consultas generales, reservas especiales o cualquier otra solicitud, estamos aquí para ayudarte. Rellena el formulario a continuación y te responderemos a la brevedad.",
+                "ctaText": "Enviar",
+                "submittedMessage": "¡Mensaje enviado correctamente!",
+                "errorMessage": "Por favor, rellena todos los campos.",
+                "name": "Nombre",
+                "email": "Email",
+                "message": "Mensaje"
+            },
+            "whatsapp": {
+                "title": "Reservas por WhatsApp",
+                "description": "También puedes reservar mesa directamente por WhatsApp",
+                "button": "Reservar por WhatsApp"
+            }
         },
-        "language_selector": "Language",
-        "privacy_policy": "Privacy Policy",
-        "copyright": "© 2025 Restaurant Banys La Gavina. All rights reserved."
+        "privacy": {
+            "title": "Privacy Policy",
+            "metaTitle": "Privacy Policy - Restaurant La Fusta",
+            "metaDescription": "Privacy policy of Restaurant La Fusta. No cookies, GDPR compliance and personal data protection.",
+            "sections": {
+                "general": {
+                    "title": "General Information",
+                    "content": "In compliance with current regulations on personal data protection, Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (GDPR) and Organic Law 3/2018, of 5 December, on Personal Data Protection and guarantee of digital rights (LOPD-GDD), we inform you about the processing of your personal data."
+                },
+                "responsible": {
+                    "title": "Data Controller",
+                    "denomination": "Business name:",
+                    "address": "Address:",
+                    "phone": "Phone:",
+                    "email": "Email:"
+                },
+                "data_collected": {
+                    "title": "Data We Collect",
+                    "intro": "The personal data we may collect includes:",
+                    "items": [
+                        "Contact details (name, phone, email) when you contact us for bookings or inquiries",
+                        "Booking information (date, time, number of diners, dietary preferences)",
+                        "Basic browsing data (IP address, browser type, pages visited)"
+                    ]
+                },
+                "purpose": {
+                    "title": "Purpose of Processing",
+                    "intro": "Your personal data will be processed for the following purposes:",
+                    "items": [
+                        "Management of bookings and restaurant services",
+                        "Customer service and query resolution",
+                        "Communications related to our services",
+                        "Compliance with legal obligations",
+                        "Improvement of our services and user experience"
+                    ]
+                },
+                "legal_basis": {
+                    "title": "Legal Basis",
+                    "intro": "The processing of your data is based on:",
+                    "contractual": "Contractual performance: For the provision of restaurant services and booking management",
+                    "consent": "Consent: For promotional communications (when applicable)",
+                    "legitimate": "Legitimate interest: For the improvement of our services",
+                    "legal": "Legal compliance: To comply with tax and accounting obligations"
+                },
+                "retention": {
+                    "title": "Data Retention",
+                    "content": "Your personal data will be kept for the time necessary to fulfill the purposes for which they were collected and, in any case, for the legally established periods. Booking data will be kept for 6 years to comply with tax obligations."
+                },
+                "recipients": {
+                    "title": "Data Recipients",
+                    "intro": "Your data will not be transferred to third parties, except legal obligation. They may only be communicated to:",
+                    "items": [
+                        "Public administrations when legally required",
+                        "Technology service providers under strict confidentiality conditions"
+                    ]
+                },
+                "rights": {
+                    "title": "Your Rights",
+                    "intro": "You have the right to:",
+                    "access": "Access: Know what data we have about you",
+                    "rectification": "Rectification: Correct inaccurate or incomplete data",
+                    "erasure": "Erasure: Request deletion of your data",
+                    "restriction": "Restriction: Restrict the processing of your data",
+                    "portability": "Portability: Receive your data in structured format",
+                    "objection": "Objection: Object to the processing of your data",
+                    "exercise": "To exercise these rights, you can contact us at info@lafustacalella.cat or at the postal address indicated above."
+                },
+                "authority": {
+                    "title": "Supervisory Authority",
+                    "content": "If you consider that the processing of your data does not comply with the regulations, you may file a complaint with the Spanish Data Protection Agency (AEPD) through its electronic headquarters (www.aepd.es) or at its postal address: C/ Jorge Juan, 6, 28001 Madrid."
+                },
+                "cookies": {
+                    "title": "Cookie Information",
+                    "important": "IMPORTANT:",
+                    "no_cookies": "This website does NOT use cookies of any kind. We do not install cookies on your device, we do not track your browsing activity and we do not collect data through third-party cookies. Therefore, your consent for the use of cookies is not necessary.",
+                    "basic_data": "Only basic browsing data (such as your IP address) that is necessary for the technical operation of the website is processed and is automatically deleted when you close your browsing session."
+                },
+                "security": {
+                    "title": "Security",
+                    "content": "We have implemented appropriate technical and organizational security measures to protect your personal data against unauthorized access, alteration, disclosure or accidental destruction."
+                },
+                "modifications": {
+                    "title": "Modifications",
+                    "content": "We reserve the right to modify this Privacy Policy. Any changes will be published on this page with the date of last update."
+                }
+            },
+            "last_updated": "Last updated:",
+            "date": "October 8, 2025"
+        },
+        "legal": {
+            "title": "Legal Notice",
+            "metaTitle": "Legal Notice - Restaurant La Fusta",
+            "metaDescription": "Legal notice and general information of Restaurant La Fusta. LSSI compliance and information society services.",
+            "sections": {
+                "general": {
+                    "title": "General Information",
+                    "content": "In compliance with Law 34/2002, of July 11, on Information Society Services and Electronic Commerce, the following legal aspects are reported:"
+                },
+                "owner": {
+                    "title": "Owner Information",
+                    "denomination": "Company name:",
+                    "address": "Address:",
+                    "phone": "Phone:",
+                    "email": "Email:"
+                },
+                "purpose": {
+                    "title": "Purpose",
+                    "content": "This website aims to present information about Restaurant La Fusta and its services, as well as to provide a contact channel for reservations and inquiries."
+                },
+                "data_protection": {
+                    "title": "Data Protection",
+                    "content": "The processing of personal data is carried out in accordance with our Privacy Policy and the current provisions of GDPR and LOPD-GDD."
+                },
+                "intellectual_property": {
+                    "title": "Intellectual Property",
+                    "content": "All contents of this website (texts, images, graphics, logo, button icons, audio and video files and their selection and arrangement) are property of Restaurant La Fusta or are used with due authorization and are protected by copyright laws and other intellectual property protection laws."
+                },
+                "liability": {
+                    "title": "Liability",
+                    "content": "Restaurant La Fusta strives to ensure that the information contained on this website is correct and up to date, however, it assumes no responsibility for possible errors, omissions or changes in the information provided."
+                },
+                "external_links": {
+                    "title": "External Links",
+                    "content": "This website may contain links to external websites. Restaurant La Fusta is not responsible for the content or privacy practices of these websites."
+                },
+                "applicable_law": {
+                    "title": "Applicable Law",
+                    "content": "This legal notice is governed by Spanish legislation. For any controversy that may arise from the use of this website, the parties submit to the Courts of Barcelona."
+                },
+                "no_cookies": {
+                    "title": "Cookie-Free Website",
+                    "important": "IMPORTANT:",
+                    "content": "This website does NOT use cookies of any kind. We do not install tracking, analytics or third-party cookies on your device. Therefore, your consent for the use of cookies is not required and you will not see cookie banners or similar notices. We fully respect your privacy and only collect the essential data necessary to provide our services."
+                }
+            },
+            "last_updated": "Last updated:",
+            "date": "October 8, 2025"
+        }
     }
 }

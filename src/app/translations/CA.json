@@ -1,239 +1,188 @@
 {
-  "nav": {
-    "home": "Inici",
-    "menu": "Carta",
-    "contacto": "Contacte",
-    "history": "Història"
-  },
-  "menu": {
-    "title": "La nostra Carta",
-    "subtitle": "Descobreix la nostra selecció de plats",
-    "description": "Gaudeix de l'autèntica cuina mediterrània amb els nostres plats elaborats amb productes frescos de primera qualitat. Cada plat és una celebració dels sabors tradicionals de la costa catalana.",
-    "allergens": {
-      "label": "Al·lèrgens",
-      "legend": "Llegenda d'al·lèrgens",
-      "types": {
-        "gluten": "Gluten",
-        "lactose": "Lactis",
-        "fish": "Peix",
-        "shellfish": "Marisc",
-        "eggs": "Ou",
-        "nuts": "Fruits secs",
-        "celery": "Api",
-        "mustard": "Mostassa",
-        "sesame": "Sèsam",
-        "sulfites": "Sulfits",
-        "molluscs": "Mol·luscs"
+  "fusta": {
+    "home": {
+      "sectionMain": {
+        "image": "/main.jpg",
+        "alt": "Restaurante - Experiencia Gastronómica",
+        "ctaHref": "/carta",
+        "title": "LA FUSTA",
+        "subtitle": "El Sabor de Siempre, en el Corazón de Calella",
+        "ctaText": "Ver nuestra carta"
+      },
+      "sectionTwo": {
+        "title": "Nuestros Platos: Un Clásico que Nunca Pasa de Moda",
+        "subtitle": "Descubre una selección de sabores que nuestros clientes repiten una y otra vez.",
+        "images": [
+          "/pizza.jpg",
+          "/pasta.jpg",
+          "/salad.jpg",
+          "/600x400_1.svg",
+          "/600x400_2.svg",
+          "/600x400_3.svg"
+        ],
+        "parallaxText": "Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico."
+      },
+      "sectionImageText": {
+        "image": "/meat.jpg",
+        "alt": "Nuestra especialidad",
+        "title": "Tradición con Toque Moderno",
+        "subtitle": "Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico.",
+        "description": "En La Fusta mantenemos la esencia de siempre con propuestas actualizadas que enamoran a locales y visitantes. Desde las tapas más clásicas hasta creaciones que sorprenden, cada plato refleja la pasión de nuestros cocineros por la buena cocina y el sabor auténtico."
+      },
+      "sectionThree": {
+        "title": "Descubre la experiencia",
+        "description": "Sumérgete en un ambiente único donde la gastronomía y el entorno se fusionan para ofrecerte momentos inolvidables.",
+        "image": "/local.jpg",
+        "ctaText": "Contáctanos",
+        "ctaHref": "/contacto"
       }
     },
-    "recommended": "Recomanat",
-    "categoryNames": {
-      "ENTRANTS": "Entrants",
-      "CARN": "Carns",
-      "PEIX": "Peixos",
-      "MARISC": "Mariscos",
-      "POSTRES": "Postres",
-      "BEGUDES": "Begudes",
-      "ARROSSOS": "Arrossos"
-    }
-  },
-  "contact_section": {
-    "title": "Visita'ns",
-    "title2": "",
-    "subtitle": "Som al cor de Calella",
-    "cta": "Com arribar"
-  },
-  "contact": {
-    "metaTitle": "Contacte - Restaurant Banys La Gavina - Calella, Barcelona",
-    "metaDescription": "Contacta amb Restaurant Banys La Gavina. Reserves, informació i ubicació a Calella, Barcelona. T'esperem!",
-    "title": "Contacte",
-    "subtitle": "Som aquí per atendre't",
-    "description": "Tens alguna pregunta o vols fer una reserva? Contacta'ns i estarem encantats d'ajudar-te.",
-    "fields": {
-      "name": "Nom",
-      "email": "Correu electrònic",
-      "phone": "Telèfon",
-      "message": "Missatge",
-      "submit": "Enviar missatge",
-      "sending": "Enviant...",
-      "success": "Missatge enviat correctament",
-      "error": "Error en enviar el missatge"
+    "nav": {
+      "home": "Inicio",
+      "menu": "Carta",
+      "contact": "Contacto"
     },
-    "whatsapp": {
-      "title": "Prefereixes WhatsApp?",
-      "button": "Contactar per WhatsApp"
-    }
-  },
-  "history": {
-    "metaTitle": "La nostra Història - Restaurant Banys La Gavina",
-    "metaDescription": "Descobreix la història del Restaurant Banys La Gavina i la rica tradició culinària de Calella, Barcelona.",
-    "title": "La nostra Història",
-    "subtitle": "Una tradició familiar que perdura",
-    "timeline": [
-      {
-        "year": "1916",
-        "title": "Inici d'una Tradició",
-        "description": "S'estableix el primer bany a la platja de Calella, marcant l'inici d'una tradició centenària en aquest emblemàtic lloc."
-      },
-      {
-        "year": "1920-1950",
-        "title": "L'Època Daurada",
-        "description": "Els banys de la platja es converteixen en un punt de trobada social, on les famílies catalanes gaudeixen de l'estiu mediterrani."
-      },
-      {
-        "year": "1960-1980",
-        "title": "Transformació Cultural",
-        "description": "Calella es transforma en una destinació turística internacional, i els banys evolucionen per adaptar-se als nous temps."
-      },
-      {
-        "year": "1995",
-        "title": "Neix La Gavina",
-        "description": "En aquest lloc històric, neix el Restaurant Banys La Gavina, fusionant la tradició dels banys amb l'excel·lència culinària."
-      },
-      {
-        "year": "2000-Present",
-        "title": "Una Nova Era",
-        "description": "Mantenint viva la tradició, el restaurant es renova constantment, oferint el millor de la cuina mediterrània en un entorn únic."
-      }
-    ],
-    "sections": {
-      "origin": {
-        "title": "Els Orígens",
-        "content": "La història del nostre restaurant està profundament arrelada en la tradició dels banys de platja de Calella. Des de principis del segle XX, aquest lloc ha estat un punt de trobada per a les famílies que buscaven gaudir del mar Mediterrani."
-      },
-      "calella_context": {
-        "title": "Calella: Un Poble amb Història",
-        "content": "Calella és un municipi amb més de mil anys d'història, situada al Maresme, a 50 km de Barcelona. La seva posició privilegiada entre el mar i la muntanya l'ha convertit en un lloc especial, on la tradició pesquera es barreja amb el turisme i la gastronomia."
-      },
-      "golden_era": {
-        "title": "L'Època Daurada dels Banys",
-        "content": "Durant les dècades de 1920 a 1950, els banys de platja eren institucions socials fonamentals. Les famílies passaven estius sencers a Calella, i els banys no eren només llocs per canviar-se, sinó veritables centres de vida social davant del mar."
-      },
-      "tradition": {
-        "title": "Tradició Culinària",
-        "content": "La cuina catalana del Maresme sempre ha estat marcada per la fusió de productes del mar i de la muntanya. El nostre restaurant honra aquesta tradició, utilitzant les millors matèries primeres locals per crear plats que expliquen la història de la nostra terra."
-      },
-      "calella_cinema": {
-        "title": "Calella al Cinema",
-        "content": "La bellesa de Calella ha estat immortalitzada en diverses produccions cinematogràfiques. El poble ha servit d'escenari per a pel·lícules espanyoles i internacionals, afegint un toc de glamur a la seva rica història."
-      },
-      "present": {
-        "title": "El Present",
-        "content": "Avui, el Restaurant Banys La Gavina és un lloc on es troben la història i la modernitat. Mantenim viva la tradició dels antics banys mentre oferim una experiència gastronòmica contemporània, sempre amb el mar Mediterrani com a teló de fons."
-      }
+    "footer": {
+      "title": "Enlaces",
+      "subtitle": "La Fusta | Restaurante en Calella",
+      "description": "Tapas tradicionales, embutidos y cenas con encanto en un ambiente rústico y auténtico. Más de 40 años ofreciendo gastronomía mediterránea, vinos y cervezas en el corazón de Calella.",
+      "privacy_policy": "Política de Privacidad",
+      "copyright": "© 2025 Restaurante La Fusta. Todos los derechos reservados."
     },
-    "heritage": {
-      "title": "El nostre Patrimoni",
-      "items": [
-        {
-          "icon": "🏛️",
-          "title": "Història Centenària",
-          "description": "Més de 100 anys de tradició en aquest emblemàtic lloc"
-        },
-        {
-          "icon": "🌊",
-          "title": "Davant del Mar",
-          "description": "Ubicació privilegiada a la costa del Maresme"
-        },
-        {
-          "icon": "👨‍🍳",
-          "title": "Cuina Autèntica",
-          "description": "Receptes tradicionals catalanes amb productes locals"
-        },
-        {
-          "icon": "🎬",
-          "title": "Escenari de Cinema",
-          "description": "Part del patrimoni cultural cinematogràfic de Catalunya"
+    "menu": {
+      "title": "Nuestra Carta",
+      "categoryNames": {
+        "starters": "Entrantes",
+        "salads": "Para Picar",
+        "rice": "Arroces",
+        "meat": "Carnes",
+        "fish": "Pescados",
+        "desserts": "Postres",
+        "drinks": "Bebidas"
+      },
+      "allergens": {
+        "label": "Alérgenos:",
+        "legend": "Leyenda de Alérgenos",
+        "types": {
+          "gluten": "Gluten",
+          "shellfish": "Mariscos",
+          "fish": "Pescado",
+          "dairy": "Lácteos",
+          "eggs": "Huevos",
+          "nuts": "Frutos secos",
+          "soy": "Soja",
+          "celery": "Apio",
+          "mustard": "Mostaza",
+          "sesame": "Sésamo",
+          "sulfites": "Sulfitos"
         }
-      ]
+      },
+      "section": {
+        "image": "/wine.jpg",
+        "alt": "Vino y tapas en La Fusta Calella",
+        "title": "Nuestra Carta",
+        "subtitle": "Tapas auténticas en el corazón de Calella"
+      }
     },
-    "cta": {
-      "title": "Vine a Formar Part de la nostra Història",
-      "subtitle": "Viu l'experiència La Gavina",
-      "contact_button": "Contactar",
-      "menu_button": "Veure Carta"
-    }
-  },
-  "privacy": {
-    "metaTitle": "Política de Privacitat - Restaurant Banys La Gavina",
-    "metaDescription": "Política de privacitat i protecció de dades del Restaurant Banys La Gavina.",
-    "title": "Política de Privacitat",
-    "last_updated": "Última actualització",
-    "sections": {
-      "intro": {
-        "title": "Introducció",
-        "content": "Al Restaurant Banys La Gavina, ens comprometem a protegir la seva privacitat i les seves dades personals. Aquesta política de privacitat explica com recopilem, utilitzem i protegim la seva informació."
-      },
-      "data_collection": {
-        "title": "Recopilació de Dades",
-        "content": "Recopilem informació personal que vostè ens proporciona directament, com ara nom, correu electrònic, telèfon i qualsevol altra dada que ens faciliti en fer una reserva o contactar amb nosaltres."
-      },
-      "data_use": {
-        "title": "Ús de les Dades",
-        "content": "Utilitzem les seves dades personals per gestionar reserves, respondre a les seves consultes, millorar els nostres serveis i, si ha donat el seu consentiment, enviar-li informació sobre el nostre restaurant."
-      },
-      "data_protection": {
-        "title": "Protecció de Dades",
-        "content": "Implementem mesures de seguretat tècniques i organitzatives per protegir les seves dades personals contra accés no autoritzat, pèrdua o alteració."
-      },
-      "user_rights": {
-        "title": "Drets de l'Usuari",
-        "content": "Té dret a accedir, rectificar, cancel·lar i oposar-se al tractament de les seves dades personals. Per exercir aquests drets, pot contactar-nos a través dels canals indicats en aquesta pàgina."
-      },
-      "cookies": {
-        "title": "Cookies",
-        "content": "El nostre lloc web utilitza cookies per millorar l'experiència de l'usuari. Pot configurar el seu navegador per rebutjar cookies, encara que això pot afectar la funcionalitat del lloc."
-      },
-      "contact": {
-        "title": "Contacte",
-        "content": "Si té alguna pregunta sobre aquesta política de privacitat, pot contactar-nos a:"
-      }
-    }
-  },
-  "legal": {
-    "metaTitle": "Avís Legal - Restaurant Banys La Gavina",
-    "metaDescription": "Avís legal del lloc web del Restaurant Banys La Gavina.",
-    "title": "Avís Legal",
-    "sections": {
-      "general": {
-        "content": "De conformitat amb el que estableix la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic, s'informa als usuaris del lloc web la següent informació:"
-      },
-      "owner": {
-        "title": "Dades del Titular",
-        "denomination": "Denominació social:",
-        "address": "Adreça:",
-        "phone": "Telèfon:",
-        "email": "Email:"
-      },
-      "purpose": {
-        "title": "Objecte",
-        "content": "El present avís legal regula l'ús del lloc web del Restaurant Banys La Gavina. La navegació pel lloc web atribueix la condició d'usuari i comporta l'acceptació plena de totes les disposicions incloses en aquest avís legal."
-      },
-      "data_protection": {
-        "title": "Protecció de Dades",
-        "content": "Les dades personals facilitades a través d'aquest lloc web seran tractades d'acord amb el que estableix la nostra"
-      },
-      "intellectual_property": {
-        "title": "Propietat Intel·lectual",
-        "content": "Tots els continguts del lloc web, incloent textos, fotografies, gràfics, imatges, icones, tecnologia, programari, enllaços i altres continguts audiovisuals o sonors, així com el seu disseny gràfic i codis font, són propietat del Restaurant Banys La Gavina, sense que puguin entendre's cedits a l'usuari cap dels drets d'explotació reconeguts per la normativa vigent en matèria de propietat intel·lectual sobre els mateixos."
-      },
-      "liability": {
-        "title": "Limitació de Responsabilitat",
-        "content": "El Restaurant Banys La Gavina no es fa responsable dels danys i perjudicis de qualsevol naturalesa que poguessin derivar de la falta de disponibilitat o de continuïtat del funcionament del lloc web, de la falta d'utilitat del lloc web o de qualsevol dels continguts i serveis per a qualsevol propòsit concret, ni dels danys i perjudicis que puguin derivar de la falta de veracitat, exactitud, exhaustivitat i/o actualitat dels continguts."
-      },
-      "external_links": {
-        "title": "Enllaços Externs",
-        "content": "El lloc web pot contenir enllaços a llocs web de tercers. El Restaurant Banys La Gavina no assumeix cap responsabilitat pel contingut, polítiques de privacitat o pràctiques de llocs web de tercers."
-      }
-    }
-  },
-  "footer": {
-    "description": "Restaurant tradicional a Calella, Barcelona. Cuina mediterrània autèntica davant del mar.",
-    "privacy_policy": "Política de Privacitat",
     "contact": {
-      "title": "Contacte"
+      "image": "/location.jpg",
+      "alt": "Ubicación La Fusta Calella",
+      "title": "Contacto",
+      "subtitle": "¿Tienes dudas o quieres reservar? ¡Escríbenos!",
+      "contact": {
+        "title": "Información de Contacto",
+        "subtitle": "Estamos aquí para ayudarte. Ya sea que tengas preguntas sobre nuestro menú, horarios o cualquier otra consulta, no dudes en ponerte en contacto con nosotros.",
+        "description": "Puedes visitarnos en nuestro restaurante en el corazón de Calella, llamarnos por teléfono o enviarnos un correo electrónico. ¡Esperamos saber de ti pronto!"
+      },
+      "form": {
+        "title": "Envíanos un Mensaje",
+        "subtitle": "Tu opinión es importante para nosotros. Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
+        "description": "Ya sea para consultas generales, reservas especiales o cualquier otra solicitud, estamos aquí para ayudarte. Rellena el formulario a continuación y te responderemos a la brevedad.",
+        "ctaText": "Enviar",
+        "submittedMessage": "¡Mensaje enviado correctamente!",
+        "errorMessage": "Por favor, rellena todos los campos.",
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje"
+      },
+      "whatsapp": {
+        "title": "Reservas por WhatsApp",
+        "description": "También puedes reservar mesa directamente por WhatsApp",
+        "button": "Reservar por WhatsApp"
+      }
     },
-    "copyright": "Tots els drets reservats.",
-    "language_selector": "Seleccionar idioma"
+    "privacy": {
+      "metaTitle": "Política de Privacitat - Restaurant La Fusta",
+      "metaDescription": "Política de privacitat i protecció de dades del Restaurant La Fusta.",
+      "title": "Política de Privacitat",
+      "last_updated": "Última actualització",
+      "sections": {
+        "intro": {
+          "title": "Introducció",
+          "content": "Al Restaurant La Fusta, ens comprometem a protegir la seva privacitat i les seves dades personals. Aquesta política de privacitat explica com recopilem, utilitzem i protegim la seva informació."
+        },
+        "data_collection": {
+          "title": "Recopilació de Dades",
+          "content": "Recopilem informació personal que vostè ens proporciona directament, com ara nom, correu electrònic, telèfon i qualsevol altra dada que ens faciliti en fer una reserva o contactar amb nosaltres."
+        },
+        "data_use": {
+          "title": "Ús de les Dades",
+          "content": "Utilitzem les seves dades personals per gestionar reserves, respondre a les seves consultes, millorar els nostres serveis i, si ha donat el seu consentiment, enviar-li informació sobre el nostre restaurant."
+        },
+        "data_protection": {
+          "title": "Protecció de Dades",
+          "content": "Implementem mesures de seguretat tècniques i organitzatives per protegir les seves dades personals contra accés no autoritzat, pèrdua o alteració."
+        },
+        "user_rights": {
+          "title": "Drets de l'Usuari",
+          "content": "Té dret a accedir, rectificar, cancel·lar i oposar-se al tractament de les seves dades personals. Per exercir aquests drets, pot contactar-nos a través dels canals indicats en aquesta pàgina."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "content": "El nostre lloc web utilitza cookies per millorar l'experiència de l'usuari. Pot configurar el seu navegador per rebutjar cookies, encara que això pot afectar la funcionalitat del lloc."
+        },
+        "contact": {
+          "title": "Contacte",
+          "content": "Si té alguna pregunta sobre aquesta política de privacitat, pot contactar-nos a:"
+        }
+      }
+    },
+    "legal": {
+      "metaTitle": "Avís Legal - Restaurant La Fusta",
+      "metaDescription": "Avís legal del lloc web del Restaurant La Fusta.",
+      "title": "Avís Legal",
+      "sections": {
+        "general": {
+          "content": "De conformitat amb el que estableix la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic, s'informa als usuaris del lloc web la següent informació:"
+        },
+        "owner": {
+          "title": "Dades del Titular",
+          "denomination": "Denominació social:",
+          "address": "Adreça:",
+          "phone": "Telèfon:",
+          "email": "Email:"
+        },
+        "purpose": {
+          "title": "Objecte",
+          "content": "El present avís legal regula l'ús del lloc web del Restaurant La Fusta. La navegació pel lloc web atribueix la condició d'usuari i comporta l'acceptació plena de totes les disposicions incloses en aquest avís legal."
+        },
+        "data_protection": {
+          "title": "Protecció de Dades",
+          "content": "Les dades personals facilitades a través d'aquest lloc web seran tractades d'acord amb el que estableix la nostra"
+        },
+        "intellectual_property": {
+          "title": "Propietat Intel·lectual",
+          "content": "Tots els continguts del lloc web, incloent textos, fotografies, gràfics, imatges, icones, tecnologia, programari, enllaços i altres continguts audiovisuals o sonors, així com el seu disseny gràfic i codis font, són propietat del Restaurant La Fusta, sense que puguin entendre's cedits a l'usuari cap dels drets d'explotació reconeguts per la normativa vigent en matèria de propietat intel·lectual sobre els mateixos."
+        },
+        "liability": {
+          "title": "Limitació de Responsabilitat",
+          "content": "El Restaurant La Fusta no es fa responsable dels danys i perjudicis de qualsevol naturalesa que poguessin derivar de la falta de disponibilitat o de continuïtat del funcionament del lloc web, de la falta d'utilitat del lloc web o de qualsevol dels continguts i serveis per a qualsevol propòsit concret, ni dels danys i perjudicis que puguin derivar de la falta de veracitat, exactitud, exhaustivitat i/o actualitat dels continguts."
+        },
+        "external_links": {
+          "title": "Enllaços Externs",
+          "content": "El lloc web pot contenir enllaços a llocs web de tercers. El Restaurant La Fusta no assumeix cap responsabilitat pel contingut, polítiques de privacitat o pràctiques de llocs web de tercers."
+        }
+      }
+    }
   }
 }

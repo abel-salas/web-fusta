@@ -1,15 +1,16 @@
 "use client";
+
 import { getLocalizedData } from "@/app/lib/localization";
 import { useEffect, useState } from "react";
 import MobileNavbar from "./mobile-navbar";
 import Link from "next/link";
 import type { Route } from 'next';
-import { LogoText } from "@/app/components/LogoText";
+import type { Dictionary } from "@/app/lib/dictionary.models";
 
 export default function Navbar({ params }: { params: Promise<{ locale: string }> }) {
   const [scrolled, setScrolled] = useState(false);
   const [isHomePage, setIsHomePage] = useState(false);
-  
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 40);
@@ -17,7 +18,7 @@ export default function Navbar({ params }: { params: Promise<{ locale: string }>
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  
+
   useEffect(() => {
     // Detectar si estamos en la home principal
     const checkHomePage = () => {
@@ -28,24 +29,23 @@ export default function Navbar({ params }: { params: Promise<{ locale: string }>
     window.addEventListener('popstate', checkHomePage);
     return () => window.removeEventListener('popstate', checkHomePage);
   }, []);
-  
-  const [locale, setLocale] = useState("es");
-  const [dict, setDict] = useState({ nav: {}, footer: {} });
+
+  const [dict, setDict] = useState<Dictionary | null>(null);
   const [href, setHref] = useState<(path: string) => string>(() => (path: string) => path);
+
   useEffect(() => {
     params.then(({ locale }) => {
-      setLocale(locale);
       const data = getLocalizedData(locale);
       setDict(data.dict);
       setHref(() => data.href);
     });
   }, [params]);
 
-  if (!dict.nav.home) return null;
+  if (!dict) return null;
   const navItems = [
     { href: href('/'), label: dict.nav.home },
     { href: href('/carta'), label: dict.nav.menu },
-    { href: href('/contacto'), label: dict.nav.contacto || 'Contacto' },
+    { href: href('/contacto'), label: dict.nav.contact },
   ];
   // Dividir items en izquierda y derecha
   const leftItems = navItems.slice(0, 2);
@@ -73,11 +73,10 @@ export default function Navbar({ params }: { params: Promise<{ locale: string }>
 
             {/* Logo Centered */}
             <div className="mx-8">
-              <Link 
-                href={href('/') as Route} 
-                className={`text-4xl tracking-tight font-bold text-white transition-all duration-300 ${
-                  isHomePage && !scrolled ? 'opacity-0 invisible' : 'opacity-100 visible'
-                }`}
+              <Link
+                href={href('/') as Route}
+                className={`text-4xl tracking-tight font-bold text-white transition-all duration-300 ${isHomePage && !scrolled ? 'opacity-0 invisible' : 'opacity-100 visible'
+                  }`}
               >
                 LA FUSTA
               </Link>
@@ -104,6 +103,8 @@ export default function Navbar({ params }: { params: Promise<{ locale: string }>
       <MobileNavbar
         navItems={navItems}
         homeHref={href('/') as Route}
+        scrolled={scrolled}
+        isHomePage={isHomePage}
       />
     </>
   );

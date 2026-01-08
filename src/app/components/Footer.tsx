@@ -20,17 +20,18 @@ export default async function Footer({ params }: { params: Promise<{ locale: str
           <div>
             <Link href={href('/') as Route} className="inline-flex items-center mb-6 group">
               <span className="material-icons-outlined mr-2 text-3xl group-hover:text-amber-500 transition-colors">restaurant</span>
-              <span className="text-2xl font-bold group-hover:text-amber-500 transition-colors">Restaurant La Fusta</span>
+              <span className="text-md font-bold group-hover:text-amber-500 transition-colors">{dict.footer.subtitle}</span>
             </Link>
+
             <p className="text-neutral-400 mt-4 mb-8 text-base leading-relaxed max-w-xs">
-              {dict.footer?.description || 'Restaurant tradicional con auténtica cocina mediterránea en el corazón de Calella.'}
+              {dict.footer.description}
             </p>
             <SocialMedia theme="dark" iconSize="large" className="mt-4" />
           </div>
 
           {/* Columna 2: Enlaces rápidos */}
           <div className="flex flex-col md:items-center">
-            <h4 className="text-lg font-bold mb-6 text-neutral-100 uppercase tracking-widest">Enlaces</h4>
+            <h4 className="text-lg font-bold mb-6 text-neutral-100 uppercase tracking-widest">{dict.footer.title}</h4>
             <ul className="space-y-4 text-base">
               <li>
                 <Link href={href('/') as Route} className="hover:text-amber-500 transition-colors">{dict.nav.home}</Link>
@@ -39,20 +40,20 @@ export default async function Footer({ params }: { params: Promise<{ locale: str
                 <Link href={href('/carta') as Route} className="hover:text-amber-500 transition-colors">{dict.nav.menu}</Link>
               </li>
               <li>
-                <Link href={href('/contacto') as Route} className="hover:text-amber-500 transition-colors">{dict.nav.contacto || 'Contacto'}</Link>
+                <Link href={href('/contacto') as Route} className="hover:text-amber-500 transition-colors">{dict.nav.contact}</Link>
               </li>
               <li>
-                <Link href={href('/privacy') as Route} className="hover:text-amber-500 transition-colors text-sm">{dict.footer?.privacy_policy || 'Política de Privacidad'}</Link>
+                <Link href={href('/privacy') as Route} className="hover:text-amber-500 transition-colors text-sm">{dict.footer.privacy_policy}</Link>
               </li>
               <li>
-                <Link href={href('/legal') as Route} className="hover:text-amber-500 transition-colors text-sm">{dict.legal?.title || 'Aviso Legal'}</Link>
+                <Link href={href('/legal') as Route} className="hover:text-amber-500 transition-colors text-sm">{dict.legal.title}</Link>
               </li>
             </ul>
           </div>
 
           {/* Columna 3: Información de contacto */}
           <div>
-            <h4 className="text-lg font-bold mb-6 text-neutral-100 uppercase tracking-widest">{dict.footer?.contact?.title || 'Contacto'}</h4>
+            <h4 className="text-lg font-bold mb-6 text-neutral-100 uppercase tracking-widest">{dict.nav.contact}</h4>
             <div className="space-y-4 text-base">
               <div className="flex items-start">
                 <span className="material-icons-outlined mr-3 text-xl text-amber-500">place</span>
@@ -78,7 +79,7 @@ export default async function Footer({ params }: { params: Promise<{ locale: str
         {/* Barra inferior */}
         <div className="flex flex-col md:flex-row justify-between items-center py-6 gap-4">
           <div className="text-neutral-500 text-sm">
-            {dict.footer?.copyright || '© 2024 Restaurant La Fusta. Todos los derechos reservados.'}
+            {'© 2024 Restaurant La Fusta. Todos los derechos reservados.'}
           </div>
           <div className="flex items-center gap-4">
             <LanguageSwitcher currentLocale={locale} />

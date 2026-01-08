@@ -15,7 +15,7 @@ node scripts/utils/nombre-del-script.js
 
 ## Notas
 
-- Los scripts están configurados para trabajar con el proyecto Sanity `tkwezd48`
+- Los scripts están configurados para trabajar con el proyecto Sanity
 - Asegúrate de tener las variables de entorno configuradas correctamente
 - Todos los scripts de migración han sido eliminados después de completar las migraciones exitosamente
 

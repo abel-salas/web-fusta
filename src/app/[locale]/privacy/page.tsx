@@ -1,50 +1,31 @@
 import React from 'react';
-import { getDictionary } from '../../lib/getDictionary';
 import { CONTACT_INFO } from '../../lib/contact-info';
 import type { Metadata } from 'next';
+import { getLocalizedData } from '@/app/lib/localization';
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-  const dict = await getDictionary(locale);
-  
   return {
-    title: dict.privacy?.metaTitle || 'Política de Privacidad',
-    description: dict.privacy?.metaDescription || 'Política de privacidad del restaurante',
+    title: 'Política de Privacidad',
+    description: 'Política de privacidad del restaurante',
   };
 }
 
 export default async function PrivacyPolicyPage({ params }: Props) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
+  const { dict } = getLocalizedData(locale);
   const privacy = dict.privacy;
-  
-  // Fallback content if translations are not available
-  if (!privacy) {
-    return (
-      <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Política de Privacidad
-          </h1>
-          <p className="text-center text-gray-600">
-            Esta página está en desarrollo. Por favor, contacte con nosotros para más información.
-          </p>
-        </div>
-      </div>
-    );
-  }
-  
+
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
+    <div className="min-h-screen bg-black py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8 mt-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">
           {privacy.title}
         </h1>
-        
+
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-4">1. {privacy.sections.general.title}</h2>
@@ -65,7 +46,7 @@ export default async function PrivacyPolicyPage({ params }: Props) {
             <h2 className="text-xl font-semibold text-gray-900 mb-4">3. {privacy.sections.data_collected.title}</h2>
             <p>{privacy.sections.data_collected.intro}</p>
             <ul className="list-disc list-inside ml-4 space-y-2">
-              {privacy.sections.data_collected.items.map((item, index) => (
+              {privacy.sections.data_collected.items.map((item: string, index: number) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
@@ -75,7 +56,7 @@ export default async function PrivacyPolicyPage({ params }: Props) {
             <h2 className="text-xl font-semibold text-gray-900 mb-4">4. {privacy.sections.purpose.title}</h2>
             <p>{privacy.sections.purpose.intro}</p>
             <ul className="list-disc list-inside ml-4 space-y-2">
-              {privacy.sections.purpose.items.map((item, index) => (
+              {privacy.sections.purpose.items.map((item: string, index: number) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
@@ -101,7 +82,7 @@ export default async function PrivacyPolicyPage({ params }: Props) {
             <h2 className="text-xl font-semibold text-gray-900 mb-4">7. {privacy.sections.recipients.title}</h2>
             <p>{privacy.sections.recipients.intro}</p>
             <ul className="list-disc list-inside ml-4 space-y-2">
-              {privacy.sections.recipients.items.map((item, index) => (
+              {privacy.sections.recipients.items.map((item: string, index: number) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>

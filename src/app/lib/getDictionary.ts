@@ -7,15 +7,15 @@ import de from "@/app/translations/DE.json";
 import { Dictionary } from "./dictionary.models";
 import { DEFAULT_LOCALE, isValidLocale } from "./languages";
 
-const dictionaries: Record<string, Dictionary> = {
-    es: es as unknown as Dictionary,
-    en: en as unknown as Dictionary,
-    ca: ca as unknown as Dictionary,
-    nl: nl as unknown as Dictionary,
-    de: de as unknown as Dictionary,
+const dictionaries: Record<string, { fusta: Dictionary }> = {
+    es: es as unknown as { fusta: Dictionary },
+    en: en as unknown as { fusta: Dictionary },
+    ca: ca as unknown as { fusta: Dictionary },
+    nl: nl as unknown as { fusta: Dictionary },
+    de: de as unknown as { fusta: Dictionary },
 };
 
-export function getDictionary(locale: string): Dictionary {
+export function getDictionary(locale: string): { fusta: Dictionary } {
     // Validar que el locale es válido antes de usarlo
     const validLocale = isValidLocale(locale) ? locale : DEFAULT_LOCALE;
     return dictionaries[validLocale] || dictionaries[DEFAULT_LOCALE];

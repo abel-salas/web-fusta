@@ -1,7 +1,7 @@
 import React from 'react';
-import { getDictionary } from '../../lib/getDictionary';
 import { CONTACT_INFO } from '../../lib/contact-info';
 import type { Metadata } from 'next';
+import { getLocalizedData } from '@/app/lib/localization';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -9,20 +9,18 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
-  
   return {
-    title: dict.legal?.metaTitle || `Legal Notice - Restaurant La Fusta`,
-    description: dict.legal?.metaDescription || 'Legal notice of Restaurant La Fusta website',
+    title: `Legal Notice - Restaurant La Fusta`,
+    description: 'Legal notice of Restaurant La Fusta website',
     robots: 'index, follow',
     alternates: {
-      canonical: `https://www.banyslagavina.cat/${locale}/legal`,
+      canonical: `https://www.lafustacalella.cat/${locale}/legal`,
       languages: {
-        'es': 'https://www.banyslagavina.cat/es/legal',
-        'en': 'https://www.banyslagavina.cat/en/legal',
-        'ca': 'https://www.banyslagavina.cat/ca/legal',
-        'nl': 'https://www.banyslagavina.cat/nl/legal',
-        'de': 'https://www.banyslagavina.cat/de/legal',
+        'es': 'https://www.lafustacalella.cat/es/legal',
+        'en': 'https://www.lafustacalella.cat/en/legal',
+        'ca': 'https://www.lafustacalella.cat/ca/legal',
+        'nl': 'https://www.lafustacalella.cat/nl/legal',
+        'de': 'https://www.lafustacalella.cat/de/legal',
       }
     }
   };
@@ -30,24 +28,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LegalNoticePage({ params }: Props) {
   const { locale } = await params;
-  const dict = await getDictionary(locale);
-  
-  if (!dict.legal) {
-    return (
-      <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          <p>Legal notice not available in this language.</p>
-        </div>
-      </div>
-    );
-  }
+  const { dict } = getLocalizedData(locale);
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen bg-black py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto mt-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-xl font-bold text-gray-900 mb-4. text-white">
             {dict.legal.title}
           </h1>
           <p className="text-xl text-gray-600">
@@ -88,7 +76,7 @@ export default async function LegalNoticePage({ params }: Props) {
             <p className="text-gray-700 leading-relaxed">
               {dict.legal.sections.data_protection.content}{' '}
               <a href={`/${locale}/privacy`} className="text-blue-600 hover:text-blue-800 underline">
-                {dict.footer?.privacy_policy || 'Privacy Policy'}
+                {dict.footer?.privacy_policy}
               </a>.
             </p>
           </section>

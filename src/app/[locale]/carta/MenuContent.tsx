@@ -4,6 +4,8 @@
 import Image from 'next/image';
 import { MenuCategory, Dictionary } from '@/app/lib/dictionary.models';
 import { motion } from 'framer-motion';
+import { Route } from 'next';
+import Link from 'next/link';
 
 interface MenuContentInfo {
     title: string;
@@ -18,10 +20,7 @@ interface MenuContentProps {
 }
 
 export default function MenuContent({ dict, menuData }: MenuContentProps) {
-    // Definir el orden deseado de las categorías (7, 6, 5, 4, 3, 2, 1)
     const categoryOrder = ['drinks', 'desserts', 'fish', 'meat', 'rice', 'salads', 'starters'];
-
-    // Convertir el objeto de categorías a array con orden específico
     const categories = categoryOrder
         .map(key => ({
             key,
@@ -65,35 +64,34 @@ export default function MenuContent({ dict, menuData }: MenuContentProps) {
     };
 
     // Imagen de cabecera de la carta
-    const sectionMain = {
-        image: "/wine.jpg",
-        alt: "Vino y tapas en La Fusta Calella",
-        title: "Nuestra Carta",
-        subtitle: "Tapas auténticas en el corazón de Calella"
-    };
-
+    const sectionMain = dict.menu.section;
 
     return (
         <>
             <div className="contact-contentmin-h-screen bg-neutral-50">
-                {/* Cabecera con imagen y overlay */}
-                <section className="relative w-full h-[260px] md:h-[520px] flex items-center justify-center overflow-hidden">
-                    <div
-                        className="absolute inset-0 w-full h-full z-0 bg-cover bg-fixed"
-                        style={{ backgroundImage: `url('${sectionMain.image}')`, backgroundPosition: 'bottom' }}
+                <section className="section-1 relative w-full h-[500px] md:h-[600px] flex items-center justify-center overflow-hidden">
+                    <Image
+                        src={sectionMain.image}
+                        alt={sectionMain.alt}
+                        fill
+                        className="object-cover object-center"
+                        priority
+                        fetchPriority="high"
+                        quality={90}
                     />
-                    <div className="absolute inset-0 bg-black/60 z-10" />
-                    <motion.div
+                    <div className="absolute inset-0 bg-black/50 z-10" />
+                    <div className="relative z-20 flex flex-col items-center justify-center w-full h-full text-center px-4">
+                        <motion.div
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: 'easeOut' }}
-                        className="relative z-20 flex flex-col items-center justify-center w-full h-full -translate-y-0 md:-translate-y-4"
+                        className="relative z-20 flex flex-col items-center justify-center w-full h-full mt-8"
                     >
                         <motion.h1
                             initial={{ opacity: 0, y: 40 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.1 }}
-                            className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight"
+                            className="text-4xl md:text-5xl font-bold text-white mb-6 uppercase mt-8"
                         >
                             {sectionMain.title}
                         </motion.h1>
@@ -101,17 +99,18 @@ export default function MenuContent({ dict, menuData }: MenuContentProps) {
                             initial={{ opacity: 0, y: 40 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
-                            className="text-xl md:text-2xl text-white max-w-2xl text-center"
+                            className="text-5xl md:text-6xl text-white md:mb-8 max-w-[80%] font-reenie-beanie"
                         >
                             {sectionMain.subtitle}
                         </motion.p>
                     </motion.div>
+                    </div>
                 </section>
 
                 {/* mapa superpuesto */}
                 <section className="relative w-full flex flex-col items-center justify-center md:-mt-16 z-30">
                     <div className="w-full md:w-[90%] max-w-6xl flex flex-col items-center justify-center relative mx-auto">
-                        <div className="w-full md:-mt-16 md:mt-0 z-20 pb-4 pt-4 md:pt-10 md:px-10 bg-white">
+                        <div className="w-full md:-mt-16 md:mt-0 z-20 pt-4 md:pt-10 md:px-10 bg-neutral-50">
 
                             <section className="grid lg:grid-cols-2 gap-6">
                                 {categories.map(({ key, data }) => (
@@ -136,7 +135,7 @@ export default function MenuContent({ dict, menuData }: MenuContentProps) {
                                             {data.items.map((item: MenuCategory['items'][0], index: number) => (
                                                 <div
                                                     key={index}
-                                                    className={`border-b border-amber-200 p-4 ${item.recommended ? 'bg-amber-50' : ''} ${index === 0 ? 'border-t' : ''}`}
+                                                    className={`border-b border-amber-200 p-4 ${item.recommended ? 'bg-amber-50' : 'bg-white'} ${index === 0 ? 'border-t' : ''}`}
                                                 >
                                                     <div className="flex items-center gap-4">
 
@@ -201,10 +200,10 @@ export default function MenuContent({ dict, menuData }: MenuContentProps) {
                             </section>
 
                             {/* Allergens Legend - Horizontal scroll on mobile */}
-                            <section>
+                            <section className='py-8'>
                                 <div className="container mx-auto px-2 relative z-10">
                                     <h3 className="text-sm font-bold text-neutral-700 mb-2 mt-6 uppercase">
-                                        {dict.menu?.allergens?.legend || 'Leyenda de Alérgenos'}
+                                        {dict.menu?.allergens?.legend}
                                     </h3>
                                     <div className="overflow-x-auto">
                                         <div className="flex gap-3 pb-2 min-w-max lg:justify-center">

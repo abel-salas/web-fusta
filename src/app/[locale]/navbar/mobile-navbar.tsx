@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import { useCloseOnEscape, useBodyScrollLock } from '@/app/components/hooks/useModal';
 import Link from 'next/link';
 import type { Route } from 'next';
-import { LogoText } from '@/app/components/LogoText';
 
 interface NavItem {
   href: string;
@@ -14,9 +13,11 @@ interface NavItem {
 interface MobileNavbarProps {
   navItems: NavItem[];
   homeHref: string;
+  scrolled: boolean;
+  isHomePage: boolean;
 }
 
-export default function MobileNavbar({ navItems, homeHref }: MobileNavbarProps) {
+export default function MobileNavbar({ navItems, homeHref, scrolled, isHomePage }: MobileNavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const closeMenu = () => setIsMenuOpen(false);
@@ -38,7 +39,9 @@ export default function MobileNavbar({ navItems, homeHref }: MobileNavbarProps) 
   return (
     <>
       {/* Mobile Navigation Bar */}
-      <nav className="md:hidden fixed top-0 left-0 right-0 z-50 bg-neutral-900 shadow-lg transition-all duration-300">
+      <nav className={`md:hidden fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled ? "bg-neutral-900/95 shadow-lg" : "bg-transparent"
+      }`}>
         <div className="absolute inset-0 opacity-10" />
 
         <div className="px-4 relative z-10">
@@ -47,7 +50,9 @@ export default function MobileNavbar({ navItems, homeHref }: MobileNavbarProps) 
             <div className="flex-shrink-0">
               <Link
                 href={homeHref as Route}
-                className={`text-2xl md:text-4xl tracking-tight font-bold text-white transition-all duration-300`}
+                className={`text-2xl md:text-4xl tracking-tight font-bold text-white transition-all duration-300 ${
+                  isHomePage && !scrolled ? 'opacity-0 invisible' : 'opacity-100 visible'
+                }`}
                 onClick={closeMenu}
               >
                 LA FUSTA

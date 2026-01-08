@@ -8,7 +8,7 @@ interface SocialMediaProps {
   theme?: 'light' | 'dark';
 }
 
-export default function SocialMedia({ 
+export default function SocialMedia({
   className = "",
   iconSize = 'medium',
   showLabels = false,
@@ -16,13 +16,13 @@ export default function SocialMedia({
   theme = 'light'
 }: SocialMediaProps) {
   const contactInfo = getContactInfo();
-  
+
   const sizeClasses = {
     small: 'w-4 h-4',
     medium: 'w-6 h-6',
     large: 'w-8 h-8'
   };
-  
+
   const themeClasses = {
     light: {
       facebook: 'text-gray-700 hover:text-blue-600',
@@ -33,10 +33,10 @@ export default function SocialMedia({
       instagram: 'text-gray-300 hover:text-pink-400'
     }
   };
-  
+
   const containerClasses = layout === 'horizontal' ? 'flex space-x-4' : 'flex flex-col space-y-2';
   const iconClasses = sizeClasses[iconSize];
-  
+
   return (
     <div className={`${containerClasses} ${className}`}>
       {/* Facebook */}

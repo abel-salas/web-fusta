@@ -1,417 +1,253 @@
 {
-    "contact_section": {
-        "title": "Reserveer je ervaring",
-        "subtitle": "Ready to enjoy a unique gastronomic experience? Book your table and let us surprise you.",
-        "cta": "Book a Table"
-    },
-    "contact_info": {
-        "phone": "937 69 25 39",
-        "mobile": "695 349 307",
-        "address": "Paseo Manuel Puigvert s/n, Calella, Barcelona",
-        "location": "Platja Gran de Calella, tegenover het Renfe Station",
-        "parking": "Twee gratis parkeerplaatsen",
-        "facebook": "Facebook",
-        "instagram": "Instagram"
-    },
-    "nav": {
-        "home": "Home",
-        "menu": "Menukaart",
-        "terraza": "Terras",
-        "paellas": "Paellas",
-        "history": "Geschiedenis",
-        "celebrations": "Vieringen",
-        "reservas": "Reserveringen",
-        "contacto": "Contact",
-        "gallery": "Galerij"
-    },
-    "home": {
-        "title": "Banys La Gavina",
-        "subtitle": "Sinds 1958 aan de kust",
-        "description": "Gelegen aan het strand van Calella, zijn wij specialisten in rijstgerechten, zeevruchten, verse vis en selecte vlees. Een onvergelijkbare setting tegenover de Middellandse Zee.",
-        "metaTitle": "Restaurant Banys La Gavina - Sinds 1958 in Calella | Rijstgerechten en Zeevruchten",
-        "metaDescription": "Traditioneel restaurant aan zee in Calella sinds 1958. Specialisten in rijstgerechten, zeevruchten, verse vis en selecte vlees. Terras met zeezicht en gratis parkeren.",
-        "cta": "Bekijk het menu"
-    },
-    "menu": {
-        "title": "Ons Menu",
-        "subtitle": "Traditionele Catalaanse keuken met de beste producten van zee en land",
-        "description": "Ons menu combineert mediterrane keukentraditie met de beste verse producten van de Costa Brava. Sinds 1958 bereiden wij authentieke Valenciaanse paella's, zeevruchten fideuá, verse vis van de markt Calella en select gegrild vlees. Elk gerecht weerspiegelt onze passie voor traditionele Catalaanse keuken, met zeevruchten uit Blanes, seizoensgroenten en het beste Catalaanse vlees, allemaal geserveerd op ons bevoorrechte terras met uitzicht op de Middellandse Zee.",
-        "metaTitle": "Menu Restaurant Gavina - Traditionele Mediterrane Gerechten",
-        "metaDescription": "Verken ons mediterrane keuken menu: paella's, verse zeevruchten, gegrild vlees en huisgemaakte desserts. Eersteklas kwaliteit ingrediënten.",
-        "categoryNames": {
-            "starters": "Voorgerechten",
-            "salads": "Hapjes",
-            "rice": "Rijstgerechten",
-            "meat": "Vlees",
-            "fish": "Vis",
-            "desserts": "Desserts",
-            "drinks": "Dranken"
-        },
-        "allergens": {
-            "label": "Allergenen:",
-            "legend": "Allergenen Legenda",
-            "types": {
-                "gluten": "Gluten",
-                "shellfish": "Schaaldieren",
-                "fish": "Vis",
-                "dairy": "Zuivel",
-                "eggs": "Eieren",
-                "nuts": "Noten",
-                "soy": "Soja",
-                "celery": "Selderij",
-                "mustard": "Mosterd",
-                "sesame": "Sesam",
-                "sulfites": "Sulfieten"
+    "fusta": {
+        "home": {
+            "sectionMain": {
+                "image": "/main.jpg",
+                "alt": "Restaurante - Experiencia Gastronómica",
+                "ctaHref": "/carta",
+                "title": "LA FUSTA",
+                "subtitle": "El Sabor de Siempre, en el Corazón de Calella",
+                "ctaText": "Ver nuestra carta"
+            },
+            "sectionTwo": {
+                "title": "Nuestros Platos: Un Clásico que Nunca Pasa de Moda",
+                "subtitle": "Descubre una selección de sabores que nuestros clientes repiten una y otra vez.",
+                "images": [
+                    "/pizza.jpg",
+                    "/pasta.jpg",
+                    "/salad.jpg",
+                    "/600x400_1.svg",
+                    "/600x400_2.svg",
+                    "/600x400_3.svg"
+                ],
+                "parallaxText": "Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico."
+            },
+            "sectionImageText": {
+                "image": "/meat.jpg",
+                "alt": "Nuestra especialidad",
+                "title": "Tradición con Toque Moderno",
+                "subtitle": "Tapas tradicionales, embutidos artesanos y cenas con encanto en un ambiente rústico y auténtico.",
+                "description": "En La Fusta mantenemos la esencia de siempre con propuestas actualizadas que enamoran a locales y visitantes. Desde las tapas más clásicas hasta creaciones que sorprenden, cada plato refleja la pasión de nuestros cocineros por la buena cocina y el sabor auténtico."
+            },
+            "sectionThree": {
+                "title": "Descubre la experiencia",
+                "description": "Sumérgete en un ambiente único donde la gastronomía y el entorno se fusionan para ofrecerte momentos inolvidables.",
+                "image": "/local.jpg",
+                "ctaText": "Contáctanos",
+                "ctaHref": "/contacto"
             }
         },
-        "view_full_menu": "Bekijk Volledige Menu",
-        "recommended": "Aanbevolen"
-    },
-    "contact": {
-        "title": "Contact",
-        "subtitle": "Restaurant aan zee in Calella - Reserveringen en vragen",
-        "description": "Neem contact met ons op voor reserveringen, evenementen of vragen. Restaurant Banys La Gavina, sinds 1958 aan de kust in Calella, Barcelona.",
-        "metaTitle": "Contact - Restaurant Gavina | Reserveringen en Vragen",
-        "metaDescription": "Neem contact op met Restaurant Gavina voor reserveringen, vragen of informatie. Wij staan voor u klaar met de beste service.",
-        "address": "Paseo Manuel Puigvert s/n, Calella, Barcelona",
-        "phone": "937 69 25 39",
-        "mobile": "695 349 307",
-        "hours": "Elke dag open",
-        "facebook": "Facebook",
-        "location": "Platja Gran de Calella, tegenover Renfe Station",
-        "parking": "Twee gratis parkeerplaatsen",
-        "info_section": "Contactinformatie",
-        "form_section": "Stuur ons een Bericht",
-        "fields": {
-            "address": "Adres",
-            "phone": "Telefoon",
-            "mobile": "Mobiel",
-            "schedule": "Openingstijden",
-            "parking": "Gratis parkeren",
-            "parking_description": "We hebben twee gratis openbare parkeerplaatsen in Calella zeer dicht bij het restaurant",
-            "follow_us": "Volg ons op sociale media",
-            "name": "Naam",
-            "email": "Email",
-            "message": "Bericht",
-            "send_button": "Verstuur Bericht"
+        "nav": {
+            "home": "Inicio",
+            "menu": "Carta",
+            "contact": "Contacto"
         },
-        "whatsapp": {
-            "title": "WhatsApp Reserveringen",
-            "description": "U kunt ook direct via WhatsApp een tafel reserveren",
-            "button": "Reserveren via WhatsApp"
-        }
-    },
-    "about": {
-        "features": [
-            {
-                "icon": "eco",
-                "title": "Verse Mediterrane Producten",
-                "description": "Zeevruchten uit Blanes, vis van de markt Calella en lokale groenten dagelijks geselecteerd voor maximale kwaliteit"
-            },
-            {
-                "icon": "restaurant",
-                "title": "Traditionele Catalaanse Keuken",
-                "description": "Meer dan 65 jaar perfectioneren van Valenciaanse paella's, zeevruchten fideuá en mediterrane specialiteiten met voorouderlijke technieken"
-            },
-            {
-                "icon": "home",
-                "title": "Familierestaurant sinds 1958",
-                "description": "Drie generaties behouden de Catalaanse keukentraditie met authentieke familierecepten"
-            },
-            {
-                "icon": "waves",
-                "title": "Calella Zeefront Locatie",
-                "description": "Terras voor Platja Gran met panoramisch uitzicht op de Middellandse Zee en unieke sfeer aan de Costa Brava"
-            }
-        ]
-    },
-    "gallery": {
-        "title": "📸 Fotogalerij",
-        "subtitle": "Ontdek onze heerlijke gerechten en gezellige sfeer",
-        "description": "Leer de unieke sfeer van Restaurant Gavina kennen en onze meest representatieve gerechten door onze fotogalerij.",
-        "metaTitle": "Galerij - Restaurant Gavina | Onze Gerechten en Sfeer",
-        "metaDescription": "Ontdek de gezellige sfeer van Restaurant Gavina en onze heerlijke mediterrane gerechten door onze fotogalerij."
-    },
-    "celebrations": {
-        "title": "Vieringen",
-        "subtitle": "Uw speciale evenement aan zee",
-        "description": "Vier uw meest speciale momenten in een unieke omgeving aan de Middellandse Zee. Wij organiseren banketten, bruiloften, communies, bedrijfsdiners en alle soorten familievieringen.",
-        "metaTitle": "Vieringen & Banketten - Restaurant Banys La Gavina | Evenementen aan zee",
-        "metaDescription": "Vier uw speciale evenementen bij Restaurant Banys La Gavina. Banketten, bruiloften, communies en bedrijfsdiners aan zee in Calella. Capaciteit tot 100 personen.",
-        "keywords": "vieringen restaurant calella, banketten aan zee, bruiloft restaurant barcelona, communies costa maresme, bedrijfsdiners calella, evenementen zeezicht"
-    },
-    "history": {
-        "title": "Onze Geschiedenis",
-        "subtitle": "Een embleem van Calella sinds 1958",
-        "sections": {
-            "origin": {
-                "title": "Het Begin (1958)",
-                "content": "Restaurant Banys La Gavina opende zijn deuren in 1958, tijdens de hoogtijdagen van Calella's toeristische ontwikkeling. Vanaf het begin was het strategisch gelegen aan Calella's Platja Gran, tegenover het Renfe Station, en werd het het perfecte ontmoetingspunt voor locals en bezoekers."
-            },
-            "calella_context": {
-                "title": "Calella: Van Vissersdorp tot Toeristische Bestemming",
-                "content": "Tijdens de jaren 60 en 70 onderging Calella een radicale transformatie. Van een traditioneel vissers- en textieldorp werd het een van de belangrijkste toeristische bestemmingen aan de Costa del Maresme. Deze toeristische boom, vooral van Centraal-Europees toerisme, maakte Calella bekend als 'Calella dels Alemanys' (Calella van de Duitsers), waarbij de bevolking tijdens het hoogseizoen verdrievoudigde."
-            },
-            "golden_era": {
-                "title": "De Gouden Eeuw van het Toerisme",
-                "content": "Banys La Gavina was getuige en protagonist van dit gouden tijdperk. Met zijn bevoorrechte locatie aan zee en naast het treinstation, werd het restaurant een verplichte stop voor toeristen die naar Calella kwamen op zoek naar zon, strand en authentieke mediterrane keuken."
-            },
-            "tradition": {
-                "title": "Meer dan 65 Jaar Traditie",
-                "content": "Gedurende meer dan zes decennia heeft het restaurant zijn familiekarakter en toewijding aan kwaliteit behouden. Het is getuige geweest van Calella's evolutie, van de beginjaren als toeristische bestemming tot het worden van een kosmopolitische stad die bezoekers uit heel Europa ontvangt."
-            },
-            "calella_cinema": {
-                "title": "Calella: Filmstad",
-                "content": "Calella is ook het decor geweest voor talrijke film- en televisieproducties. Sinds 2010 maakt het deel uit van Catalunya Film Commission en heeft het zijn eigen Calella Film Office. De stad heeft gediend als 'filmsetstad' voor producties die de essentie van de Catalaanse Middellandse Zee wilden vastleggen."
-            },
-            "present": {
-                "title": "Het Restaurant Vandaag",
-                "content": "Momenteel blijft Restaurant Banys La Gavina een gastronomische referentie in Calella. Het behoudt zijn traditionele specialiteiten in rijstgerechten, zeevruchten en verse vis, terwijl het zich aanpast aan moderne tijden en zijn mediterrane en familieziel behoudt."
-            }
+        "footer": {
+            "title": "Enlaces",
+            "subtitle": "La Fusta | Restaurante en Calella",
+            "description": "Tapas tradicionales, embutidos y cenas con encanto en un ambiente rústico y auténtico. Más de 40 años ofreciendo gastronomía mediterránea, vinos y cervezas en el corazón de Calella.",
+            "privacy_policy": "Política de Privacidad",
+            "copyright": "© 2025 Restaurante La Fusta. Todos los derechos reservados."
         },
-        "timeline": [
-            {
-                "year": "1958",
-                "event": "Opening van Restaurant Banys La Gavina"
+        "menu": {
+            "title": "Nuestra Carta",
+            "categoryNames": {
+                "starters": "Entrantes",
+                "salads": "Para Picar",
+                "rice": "Arroces",
+                "meat": "Carnes",
+                "fish": "Pescados",
+                "desserts": "Postres",
+                "drinks": "Bebidas"
             },
-            {
-                "year": "1960s-70s",
-                "event": "Toeristische boom van Calella - 'Calella dels Alemanys'"
-            },
-            {
-                "year": "1970s",
-                "event": "Consolidatie als lokale gastronomische referentie"
-            },
-            {
-                "year": "2010",
-                "event": "Calella wordt lid van Catalunya Film Commission"
-            },
-            {
-                "year": "2024",
-                "event": "Meer dan 65 jaar de beste mediterrane keuken serveren"
-            }
-        ],
-        "heritage": {
-            "title": "Erfgoed en Traditie",
-            "items": [
-                {
-                    "title": "Historische Locatie",
-                    "description": "Gelegen aan de emblematische Paseo Manuel Puigvert, tegenover Platja Gran, sinds 1958"
-                },
-                {
-                    "title": "Traditionele Recepten",
-                    "description": "Wij bewaren de originele recepten van onze rijstgerechten en zeespecialiteiten"
-                },
-                {
-                    "title": "Getuige van de Geschiedenis",
-                    "description": "Wij zijn getuige geweest van de toeristische ontwikkeling van Calella en de Costa del Maresme"
-                },
-                {
-                    "title": "Generaties van Klanten",
-                    "description": "Hele families hebben decennialang speciale momenten aan onze tafels gedeeld"
+            "allergens": {
+                "label": "Alérgenos:",
+                "legend": "Leyenda de Alérgenos",
+                "types": {
+                    "gluten": "Gluten",
+                    "shellfish": "Mariscos",
+                    "fish": "Pescado",
+                    "dairy": "Lácteos",
+                    "eggs": "Huevos",
+                    "nuts": "Frutos secos",
+                    "soy": "Soja",
+                    "celery": "Apio",
+                    "mustard": "Mostaza",
+                    "sesame": "Sésamo",
+                    "sulfites": "Sulfitos"
                 }
-            ]
-        },
-        "cta": {
-            "title": "Word Deel van Onze Geschiedenis",
-            "subtitle": "Meer dan 65 jaar gastronomische traditie wacht op u aan de kust",
-            "menu_button": "Bekijk Onze Kaart",
-            "contact_button": "Reserveer een Tafel"
-        }
-    },
-    "sections": {
-        "about": {
-            "title": "Onze Geschiedenis",
-            "titleSeo": "Restaurant Banys La Gavina is sinds meer dan 65 jaar een gastronomisch landmark in Calella.",
-            "subtitle": "Familietraditie sinds 1958 aan de zeefront",
-            "description": "Gelegen aan Platja Gran tegenover het Renfe Station, zijn wij specialisten in authentieke Valenciaanse paella's, verse Costa Brava zeevruchten, marktvis en gegrild vlees. Onze traditionele Catalaanse mediterrane keuken combineert eersteklas lokale producten met voorouderlijke technieken, en biedt een unieke gastronomische ervaring met panoramisch uitzicht op de Middellandse Zee."
-        },
-        "specialties": {
-            "title": "Onze Specialiteiten",
-            "subtitle": "Het beste van de Middellandse Zee en selecte vlees",
-            "items": [
-                {
-                    "name": "Rijstgerechten",
-                    "description": "Zeevruchten paella, zwarte rijst, speciale paella met kreeft en fideuà",
-                    "price": "____"
-                },
-                {
-                    "name": "Zeevruchten",
-                    "description": "Blanes garnalen, langoustines, mosselen marinera en gestoomd",
-                    "price": "____"
-                },
-                {
-                    "name": "Verse Vis",
-                    "description": "Dagelijkse selectie verse mediterrane vis",
-                    "price": "____"
-                },
-                {
-                    "name": "Selecte Vlees",
-                    "description": "Entrecote, ossenhaas, lamskoteletjes en grill specialiteiten",
-                    "price": "____"
-                }
-            ]
-        },
-        "location": {
-            "title": "Bevoorrechte Locatie in Calella",
-            "subtitle": "Eerste lijn Middellandse Zee strand",
-            "description": "Restaurant Banys La Gavina ligt aan Platja Gran de Calella, aan de zeefront met panoramisch uitzicht op de Middellandse Zee. Op 800m van RENFE Station Calella en met gratis parkeren in de buurt, bieden wij gemakkelijke toegang voor zowel Barcelona toeristen als locals. Ons zeeterras is de perfecte setting om te genieten van Valenciaanse paella's, verse Costa Brava zeevruchten en marktvis in een unieke mediterrane sfeer."
-        }
-    },
-    "privacy": {
-        "title": "Privacybeleid",
-        "metaTitle": "Privacybeleid - Restaurant Banys La Gavina",
-        "metaDescription": "Privacybeleid van Restaurant Banys La Gavina. Geen cookies, AVG-naleving en bescherming van persoonlijke gegevens.",
-        "sections": {
-            "general": {
-                "title": "Algemene Informatie",
-                "content": "In overeenstemming met de geldende regelgeving inzake de bescherming van persoonsgegevens, Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 (AVG) en Organieke Wet 3/2018, van 5 december, betreffende de bescherming van persoonsgegevens en garantie van digitale rechten (LOPD-GDD), informeren wij u over de verwerking van uw persoonsgegevens."
             },
-            "responsible": {
-                "title": "Verwerkingsverantwoordelijke",
-                "denomination": "Bedrijfsnaam:",
-                "address": "Adres:",
-                "phone": "Telefoon:",
-                "email": "Email:"
-            },
-            "data_collected": {
-                "title": "Gegevens die Wij Verzamelen",
-                "intro": "De persoonsgegevens die wij kunnen verzamelen omvatten:",
-                "items": [
-                    "Contactgegevens (naam, telefoon, email) wanneer u contact met ons opneemt voor reserveringen of vragen",
-                    "Reserveringsgegevens (datum, tijd, aantal gasten, dieetvoorkeuren)",
-                    "Basis navigatiegegevens (IP-adres, browsertype, bezochte pagina's)"
-                ]
-            },
-            "purpose": {
-                "title": "Doel van Verwerking",
-                "intro": "Uw persoonsgegevens worden verwerkt voor de volgende doeleinden:",
-                "items": [
-                    "Beheer van reserveringen en restaurantdiensten",
-                    "Klantenservice en oplossen van vragen",
-                    "Communicatie gerelateerd aan onze diensten",
-                    "Naleven van wettelijke verplichtingen",
-                    "Verbetering van onze diensten en gebruikerservaring"
-                ]
-            },
-            "legal_basis": {
-                "title": "Rechtsgrondslag",
-                "intro": "De verwerking van uw gegevens is gebaseerd op:",
-                "contractual": "Contractuele uitvoering: Voor het verlenen van restaurantdiensten en reserveringsbeheer",
-                "consent": "Toestemming: Voor promotionele communicatie (indien van toepassing)",
-                "legitimate": "Gerechtvaardigd belang: Voor de verbetering van onze diensten",
-                "legal": "Wettelijke naleving: Om te voldoen aan fiscale en boekhoudkundige verplichtingen"
-            },
-            "retention": {
-                "title": "Gegevensbewaring",
-                "content": "Uw persoonsgegevens worden bewaard voor de tijd die nodig is om te voldoen aan de doeleinden waarvoor ze werden verzameld en, in ieder geval, voor de wettelijk vastgestelde termijnen. Reserveringsgegevens worden 6 jaar bewaard om te voldoen aan fiscale verplichtingen."
-            },
-            "recipients": {
-                "title": "Ontvangers van Gegevens",
-                "intro": "Uw gegevens worden niet overgedragen aan derden, behalve bij wettelijke verplichting. Ze kunnen alleen worden meegedeeld aan:",
-                "items": [
-                    "Overheidsinstanties wanneer wettelijk vereist",
-                    "Technologie serviceproviders onder strikte vertrouwelijkheidsvoorwaarden"
-                ]
-            },
-            "rights": {
-                "title": "Uw Rechten",
-                "intro": "U heeft het recht op:",
-                "access": "Toegang: Weten welke gegevens wij over u hebben",
-                "rectification": "Rectificatie: Onjuiste of onvolledige gegevens corrigeren",
-                "erasure": "Wissing: Verzoeken om verwijdering van uw gegevens",
-                "restriction": "Beperking: De verwerking van uw gegevens beperken",
-                "portability": "Portabiliteit: Uw gegevens ontvangen in gestructureerd formaat",
-                "objection": "Bezwaar: Bezwaar maken tegen de verwerking van uw gegevens",
-                "exercise": "Om deze rechten uit te oefenen, kunt u contact met ons opnemen via info@banyslagavina.cat of op het hierboven aangegeven postadres."
-            },
-            "authority": {
-                "title": "Toezichthoudende Autoriteit",
-                "content": "Als u van mening bent dat de verwerking van uw gegevens niet in overeenstemming is met de regelgeving, kunt u een klacht indienen bij de Spaanse Autoriteit Gegevensbescherming (AEPD) via hun elektronische hoofdkantoor (www.aepd.es) of op hun postadres: C/ Jorge Juan, 6, 28001 Madrid."
-            },
-            "cookies": {
-                "title": "Cookie Informatie",
-                "important": "BELANGRIJK:",
-                "no_cookies": "Deze website gebruikt GEEN cookies van welke aard dan ook. Wij installeren geen cookies op uw apparaat, wij volgen uw surfactiviteit niet en wij verzamelen geen gegevens via cookies van derden. Daarom is uw toestemming voor het gebruik van cookies niet nodig.",
-                "basic_data": "Alleen basis navigatiegegevens (zoals uw IP-adres) die nodig zijn voor de technische werking van de website worden verwerkt en automatisch verwijderd wanneer u uw browsersessie afsluit."
-            },
-            "security": {
-                "title": "Beveiliging",
-                "content": "Wij hebben passende technische en organisatorische beveiligingsmaatregelen geïmplementeerd om uw persoonsgegevens te beschermen tegen ongeautoriseerde toegang, wijziging, openbaarmaking of accidentele vernietiging."
-            },
-            "modifications": {
-                "title": "Wijzigingen",
-                "content": "Wij behouden ons het recht voor om dit Privacybeleid te wijzigen. Eventuele wijzigingen worden op deze pagina gepubliceerd met de datum van laatste update."
+            "section": {
+                "image": "/wine.jpg",
+                "alt": "Vino y tapas en La Fusta Calella",
+                "title": "Nuestra Carta",
+                "subtitle": "Tapas auténticas en el corazón de Calella"
             }
         },
-        "last_updated": "Laatst bijgewerkt:",
-        "date": "8 oktober 2025"
-    },
-    "legal": {
-        "title": "Juridische Kennisgeving",
-        "metaTitle": "Juridische Kennisgeving - Restaurant Banys La Gavina",
-        "metaDescription": "Juridische kennisgeving en algemene informatie van Restaurant Banys La Gavina. LSSI-naleving en informatiediensten.",
-        "sections": {
-            "general": {
-                "title": "Algemene Informatie",
-                "content": "In overeenstemming met Wet 34/2002 van 11 juli betreffende Diensten van de Informatiemaatschappij en Elektronische Handel, worden de volgende juridische aspecten gemeld:"
-            },
-            "owner": {
-                "title": "Eigenaarsinformatie",
-                "denomination": "Bedrijfsnaam:",
-                "address": "Adres:",
-                "phone": "Telefoon:",
-                "email": "E-mail:"
-            },
-            "purpose": {
-                "title": "Doel",
-                "content": "Deze website heeft tot doel informatie te presenteren over Restaurant Banys La Gavina en zijn diensten, evenals een contactkanaal te bieden voor reserveringen en vragen."
-            },
-            "data_protection": {
-                "title": "Gegevensbescherming",
-                "content": "De verwerking van persoonsgegevens wordt uitgevoerd in overeenstemming met ons Privacybeleid en de huidige bepalingen van AVG en LOPD-GDD."
-            },
-            "intellectual_property": {
-                "title": "Intellectueel Eigendom",
-                "content": "Alle inhoud van deze website (teksten, afbeeldingen, grafische elementen, logo, knoppictogrammen, audio- en videobestanden en hun selectie en rangschikking) zijn eigendom van Restaurant Banys La Gavina of worden gebruikt met behoorlijke autorisatie en zijn beschermd door auteursrechtwetten en andere wetten ter bescherming van intellectueel eigendom."
-            },
-            "liability": {
-                "title": "Aansprakelijkheid",
-                "content": "Restaurant Banys La Gavina streeft ernaar te verzekeren dat de informatie op deze website correct en actueel is, maar neemt geen verantwoordelijkheid voor mogelijke fouten, weglatingen of wijzigingen in de verstrekte informatie."
-            },
-            "external_links": {
-                "title": "Externe Links",
-                "content": "Deze website kan links naar externe websites bevatten. Restaurant Banys La Gavina is niet verantwoordelijk voor de inhoud of privacypraktijken van deze websites."
-            },
-            "applicable_law": {
-                "title": "Toepasselijk Recht",
-                "content": "Deze juridische kennisgeving wordt beheerst door de Spaanse wetgeving. Voor eventuele geschillen die kunnen voortvloeien uit het gebruik van deze website, onderwerpen partijen zich aan de rechtbanken van Barcelona."
-            },
-            "no_cookies": {
-                "title": "Cookievrije Website",
-                "important": "BELANGRIJK:",
-                "content": "Deze website gebruikt GEEN cookies van welke aard dan ook. We installeren geen tracking-, analyse- of cookies van derden op uw apparaat. Daarom is uw toestemming voor het gebruik van cookies niet vereist en zult u geen cookiebanners of soortgelijke meldingen zien. We respecteren uw privacy volledig en verzamelen alleen de essentiële gegevens die nodig zijn om onze diensten te verlenen."
-            }
-        },
-        "last_updated": "Laatst bijgewerkt:",
-        "date": "8 oktober 2025"
-    },
-    "common": {
-        "cta": {
-            "reserve_now": "Nu Reserveren",
-            "more_info": "Meer Informatie",
-            "whatsapp_reserve": "Via WhatsApp Reserveren",
-            "contact": "Contact"
-        }
-    },
-    "footer": {
-        "description": "Restaurant Banys La Gavina, familietraditie sinds 1958 aan de kust in Calella.",
-        "quick_links": "Snelle Links",
         "contact": {
-            "title": "Contact"
+            "image": "/location.jpg",
+            "alt": "Ubicación La Fusta Calella",
+            "title": "Contacto",
+            "subtitle": "¿Tienes dudas o quieres reservar? ¡Escríbenos!",
+            "contact": {
+                "title": "Información de Contacto",
+                "subtitle": "Estamos aquí para ayudarte. Ya sea que tengas preguntas sobre nuestro menú, horarios o cualquier otra consulta, no dudes en ponerte en contacto con nosotros.",
+                "description": "Puedes visitarnos en nuestro restaurante en el corazón de Calella, llamarnos por teléfono o enviarnos un correo electrónico. ¡Esperamos saber de ti pronto!"
+            },
+            "form": {
+                "title": "Envíanos un Mensaje",
+                "subtitle": "Tu opinión es importante para nosotros. Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
+                "description": "Ya sea para consultas generales, reservas especiales o cualquier otra solicitud, estamos aquí para ayudarte. Rellena el formulario a continuación y te responderemos a la brevedad.",
+                "ctaText": "Enviar",
+                "submittedMessage": "¡Mensaje enviado correctamente!",
+                "errorMessage": "Por favor, rellena todos los campos.",
+                "name": "Nombre",
+                "email": "Email",
+                "message": "Mensaje"
+            },
+            "whatsapp": {
+                "title": "Reservas por WhatsApp",
+                "description": "También puedes reservar mesa directamente por WhatsApp",
+                "button": "Reservar por WhatsApp"
+            }
         },
-        "language_selector": "Taal",
-        "privacy_policy": "Privacybeleid",
-        "copyright": "© 2025 Restaurant Banys La Gavina. Alle rechten voorbehouden."
+        "privacy": {
+            "title": "Privacybeleid",
+            "metaTitle": "Privacybeleid - Restaurant La Fusta",
+            "metaDescription": "Privacybeleid van Restaurant La Fusta. Geen cookies, AVG-naleving en bescherming van persoonlijke gegevens.",
+            "sections": {
+                "general": {
+                    "title": "Algemene Informatie",
+                    "content": "In overeenstemming met de geldende regelgeving inzake de bescherming van persoonsgegevens, Verordening (EU) 2016/679 van het Europees Parlement en de Raad van 27 april 2016 (AVG) en Organieke Wet 3/2018, van 5 december, betreffende de bescherming van persoonsgegevens en garantie van digitale rechten (LOPD-GDD), informeren wij u over de verwerking van uw persoonsgegevens."
+                },
+                "responsible": {
+                    "title": "Verwerkingsverantwoordelijke",
+                    "denomination": "Bedrijfsnaam:",
+                    "address": "Adres:",
+                    "phone": "Telefoon:",
+                    "email": "Email:"
+                },
+                "data_collected": {
+                    "title": "Gegevens die Wij Verzamelen",
+                    "intro": "De persoonsgegevens die wij kunnen verzamelen omvatten:",
+                    "items": [
+                        "Contactgegevens (naam, telefoon, email) wanneer u contact met ons opneemt voor reserveringen of vragen",
+                        "Reserveringsgegevens (datum, tijd, aantal gasten, dieetvoorkeuren)",
+                        "Basis navigatiegegevens (IP-adres, browsertype, bezochte pagina's)"
+                    ]
+                },
+                "purpose": {
+                    "title": "Doel van Verwerking",
+                    "intro": "Uw persoonsgegevens worden verwerkt voor de volgende doeleinden:",
+                    "items": [
+                        "Beheer van reserveringen en restaurantdiensten",
+                        "Klantenservice en oplossen van vragen",
+                        "Communicatie gerelateerd aan onze diensten",
+                        "Naleven van wettelijke verplichtingen",
+                        "Verbetering van onze diensten en gebruikerservaring"
+                    ]
+                },
+                "legal_basis": {
+                    "title": "Rechtsgrondslag",
+                    "intro": "De verwerking van uw gegevens is gebaseerd op:",
+                    "contractual": "Contractuele uitvoering: Voor het verlenen van restaurantdiensten en reserveringsbeheer",
+                    "consent": "Toestemming: Voor promotionele communicatie (indien van toepassing)",
+                    "legitimate": "Gerechtvaardigd belang: Voor de verbetering van onze diensten",
+                    "legal": "Wettelijke naleving: Om te voldoen aan fiscale en boekhoudkundige verplichtingen"
+                },
+                "retention": {
+                    "title": "Gegevensbewaring",
+                    "content": "Uw persoonsgegevens worden bewaard voor de tijd die nodig is om te voldoen aan de doeleinden waarvoor ze werden verzameld en, in ieder geval, voor de wettelijk vastgestelde termijnen. Reserveringsgegevens worden 6 jaar bewaard om te voldoen aan fiscale verplichtingen."
+                },
+                "recipients": {
+                    "title": "Ontvangers van Gegevens",
+                    "intro": "Uw gegevens worden niet overgedragen aan derden, behalve bij wettelijke verplichting. Ze kunnen alleen worden meegedeeld aan:",
+                    "items": [
+                        "Overheidsinstanties wanneer wettelijk vereist",
+                        "Technologie serviceproviders onder strikte vertrouwelijkheidsvoorwaarden"
+                    ]
+                },
+                "rights": {
+                    "title": "Uw Rechten",
+                    "intro": "U heeft het recht op:",
+                    "access": "Toegang: Weten welke gegevens wij over u hebben",
+                    "rectification": "Rectificatie: Onjuiste of onvolledige gegevens corrigeren",
+                    "erasure": "Wissing: Verzoeken om verwijdering van uw gegevens",
+                    "restriction": "Beperking: De verwerking van uw gegevens beperken",
+                    "portability": "Portabiliteit: Uw gegevens ontvangen in gestructureerd formaat",
+                    "objection": "Bezwaar: Bezwaar maken tegen de verwerking van uw gegevens",
+                    "exercise": "Om deze rechten uit te oefenen, kunt u contact met ons opnemen via info@lafustacalella.cat of op het hierboven aangegeven postadres."
+                },
+                "authority": {
+                    "title": "Toezichthoudende Autoriteit",
+                    "content": "Als u van mening bent dat de verwerking van uw gegevens niet in overeenstemming is met de regelgeving, kunt u een klacht indienen bij de Spaanse Autoriteit Gegevensbescherming (AEPD) via hun elektronische hoofdkantoor (www.aepd.es) of op hun postadres: C/ Jorge Juan, 6, 28001 Madrid."
+                },
+                "cookies": {
+                    "title": "Cookie Informatie",
+                    "important": "BELANGRIJK:",
+                    "no_cookies": "Deze website gebruikt GEEN cookies van welke aard dan ook. Wij installeren geen cookies op uw apparaat, wij volgen uw surfactiviteit niet en wij verzamelen geen gegevens via cookies van derden. Daarom is uw toestemming voor het gebruik van cookies niet nodig.",
+                    "basic_data": "Alleen basis navigatiegegevens (zoals uw IP-adres) die nodig zijn voor de technische werking van de website worden verwerkt en automatisch verwijderd wanneer u uw browsersessie afsluit."
+                },
+                "security": {
+                    "title": "Beveiliging",
+                    "content": "Wij hebben passende technische en organisatorische beveiligingsmaatregelen geïmplementeerd om uw persoonsgegevens te beschermen tegen ongeautoriseerde toegang, wijziging, openbaarmaking of accidentele vernietiging."
+                },
+                "modifications": {
+                    "title": "Wijzigingen",
+                    "content": "Wij behouden ons het recht voor om dit Privacybeleid te wijzigen. Eventuele wijzigingen worden op deze pagina gepubliceerd met de datum van laatste update."
+                }
+            },
+            "last_updated": "Laatst bijgewerkt:",
+            "date": "8 oktober 2025"
+        },
+        "legal": {
+            "title": "Juridische Kennisgeving",
+            "metaTitle": "Juridische Kennisgeving - Restaurant La Fusta",
+            "metaDescription": "Juridische kennisgeving en algemene informatie van Restaurant La Fusta. LSSI-naleving en informatiediensten.",
+            "sections": {
+                "general": {
+                    "title": "Algemene Informatie",
+                    "content": "In overeenstemming met Wet 34/2002 van 11 juli betreffende Diensten van de Informatiemaatschappij en Elektronische Handel, worden de volgende juridische aspecten gemeld:"
+                },
+                "owner": {
+                    "title": "Eigenaarsinformatie",
+                    "denomination": "Bedrijfsnaam:",
+                    "address": "Adres:",
+                    "phone": "Telefoon:",
+                    "email": "E-mail:"
+                },
+                "purpose": {
+                    "title": "Doel",
+                    "content": "Deze website heeft tot doel informatie te presenteren over Restaurant La Fusta en zijn diensten, evenals een contactkanaal te bieden voor reserveringen en vragen."
+                },
+                "data_protection": {
+                    "title": "Gegevensbescherming",
+                    "content": "De verwerking van persoonsgegevens wordt uitgevoerd in overeenstemming met ons Privacybeleid en de huidige bepalingen van AVG en LOPD-GDD."
+                },
+                "intellectual_property": {
+                    "title": "Intellectueel Eigendom",
+                    "content": "Alle inhoud van deze website (teksten, afbeeldingen, grafische elementen, logo, knoppictogrammen, audio- en videobestanden en hun selectie en rangschikking) zijn eigendom van Restaurant La Fusta of worden gebruikt met behoorlijke autorisatie en zijn beschermd door auteursrechtwetten en andere wetten ter bescherming van intellectueel eigendom."
+                },
+                "liability": {
+                    "title": "Aansprakelijkheid",
+                    "content": "Restaurant La Fusta streeft ernaar te verzekeren dat de informatie op deze website correct en actueel is, maar neemt geen verantwoordelijkheid voor mogelijke fouten, weglatingen of wijzigingen in de verstrekte informatie."
+                },
+                "external_links": {
+                    "title": "Externe Links",
+                    "content": "Deze website kan links naar externe websites bevatten. Restaurant La Fusta is niet verantwoordelijk voor de inhoud of privacypraktijken van deze websites."
+                },
+                "applicable_law": {
+                    "title": "Toepasselijk Recht",
+                    "content": "Deze juridische kennisgeving wordt beheerst door de Spaanse wetgeving. Voor eventuele geschillen die kunnen voortvloeien uit het gebruik van deze website, onderwerpen partijen zich aan de rechtbanken van Barcelona."
+                },
+                "no_cookies": {
+                    "title": "Cookievrije Website",
+                    "important": "BELANGRIJK:",
+                    "content": "Deze website gebruikt GEEN cookies van welke aard dan ook. We installeren geen tracking-, analyse- of cookies van derden op uw apparaat. Daarom is uw toestemming voor het gebruik van cookies niet vereist en zult u geen cookiebanners of soortgelijke meldingen zien. We respecteren uw privacy volledig en verzamelen alleen de essentiële gegevens die nodig zijn om onze diensten te verlenen."
+                }
+            },
+            "last_updated": "Laatst bijgewerkt:",
+            "date": "8 oktober 2025"
+        }
     }
 }

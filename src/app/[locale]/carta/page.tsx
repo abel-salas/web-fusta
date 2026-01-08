@@ -2,10 +2,9 @@ import type { Metadata } from 'next';
 import { getLocalizedData } from "@/app/lib/localization";
 import { generatePageMetadata, getValidLocale } from '@/seo';
 import { client } from '../../../../sanity/client';
-import { menuItemsQuery, menuContentQuery } from '../../lib/sanity/contentQueries';
-import { getLocalizedText } from '../../lib/sanity/contentTypes';
 import MenuContent from '@/app/[locale]/carta/MenuContent';
 import { generateMenuSchema } from '@/seo/generators/advanced-schema';
+import { menuContentQuery, menuItemsQuery } from '../../../../sanity/queries';
 
 // Función para obtener nombres de categorías desde el diccionario
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -50,7 +49,7 @@ export default async function MenuPage({ params }: { params: Promise<{ locale: s
   if (menuItems.length === 0) {
     return (
       <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-slate-50 to-white text-center px-4">
-        <h1 className="text-3xl font-bold text-slate-800 mb-4">{dict.menu?.title || 'Menú'}</h1>
+        <h1 className="text-3xl font-bold text-slate-800 mb-4 text-white">{dict.menu.title}</h1>
         <p className="text-slate-600 mb-8">El menú se está actualizando. Por favor, vuelve pronto.</p>
         <div className="w-24 h-1 bg-gradient-to-r from-cyan-600 to-blue-600 mx-auto rounded-full" />
       </div>
@@ -81,15 +80,6 @@ export default async function MenuPage({ params }: { params: Promise<{ locale: s
 
     return acc;
   }, {});
-
-  // Procesar datos del contenido del menú (hero section)
-  const homeMainSection = menuContentData.find((section: { sectionId: string }) => section.sectionId === 'hero');
-  const menuContentInfo = {
-    title: homeMainSection ? getLocalizedText(homeMainSection.heroTitle, locale, dict.menu?.title || '') : dict.menu?.title || '',
-    subtitle: homeMainSection ? getLocalizedText(homeMainSection.heroSubtitle, locale, dict.menu?.subtitle || '') : dict.menu?.subtitle || '',
-    description: homeMainSection ? getLocalizedText(homeMainSection.heroDescription, locale, dict.menu?.description || '') : dict.menu?.description || '',
-    backgroundImage: homeMainSection?.heroBackgroundImage?.asset?.url || '/images/menu/mesa_carta.jpg'
-  };
 
   return (
     <>
